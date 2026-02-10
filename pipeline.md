@@ -26,6 +26,7 @@
 | District | Stage | Primary Contact | Next Action | Target Date | Est. Value | Notes |
 |----------|-------|----------------|-------------|-------------|-----------|-------|
 | Rialto USD | 1 - Identified | Juanita Chan-Roden (jchan@rialtousd.org) | Send intro email | Mar 2026 | $15K pilot → $100K+ scale | STEM CARES hook, math gap, bilingual |
+| San Pasqual Union ESD | 1 - Identified | Mark Burroughs (mark.burroughs@sanpasqualunion.net) | Attend Saints Soirée, send intro email | Mar 2026 | $3-5K pilot | Zoo Safari Park hook, STEM teachers, closest to home |
 
 ---
 
@@ -34,14 +35,14 @@
 | Stage | Count | Est. Total Value |
 |-------|-------|-----------------|
 | Research | 0 | - |
-| Identified | 1 | $15K-100K |
+| Identified | 2 | $18-105K |
 | Contacted | 0 | - |
 | Engaged | 0 | - |
 | Demo | 0 | - |
 | Pilot Proposed | 0 | - |
 | Pilot Active | 0 | - |
 | Won | 0 | - |
-| **Total** | **1** | **$15K-100K** |
+| **Total** | **2** | **$18K-105K** |
 
 ---
 

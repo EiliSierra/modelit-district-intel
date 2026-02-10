@@ -31,6 +31,21 @@ ModelIt K12 is:
 - Includes teacher professional development
 - Best fit for grades 5-12, especially where math/science proficiency is low
 
+## District Size & Grade Span Adjustments
+
+For districts under 2,000 students:
+- Contact tiers may collapse (superintendent may BE the curriculum director)
+- CAASPP subgroup data may be suppressed (N<11)
+- Fewer vendors/partners is expected
+- Entry strategy should emphasize personal relationships and informal processes
+
+For elementary-only districts (K-6 or K-8):
+- CTE pathways: "N/A - elementary district"
+- High school curriculum: "N/A"
+- Focus on K-5 and 6-8 grade bands only
+
+---
+
 ## What to Do
 
 ### Step 1: Research the District
@@ -213,6 +228,84 @@ Open `comparison.xlsx` and add a new row for this district in ALL 8 sheets:
 ### Step 4: Update the Pipeline
 
 Add the district to `pipeline.md` in the Active Pipeline table.
+
+### Step 4.5: Self-Validate
+
+Before committing, run through this validation checklist and output a summary table.
+
+**File Existence Check:**
+Verify all 9 files exist in `districts/[slug]/`:
+- [ ] README.md
+- [ ] profile.md
+- [ ] contacts.md
+- [ ] lcap-extract.md
+- [ ] board-meetings.md
+- [ ] science-curriculum.md
+- [ ] vendors-partners.md
+- [ ] entry-strategy.md
+- [ ] pitch-notes.md
+
+**Minimum Line Counts:**
+
+| File | Standard (>2K students) | Small (<2K students) |
+|------|------------------------|---------------------|
+| README.md | 35 | 30 |
+| profile.md | 150 | 100 |
+| contacts.md | 100 | 60 |
+| lcap-extract.md | 100 | 70 |
+| board-meetings.md | 60 | 40 |
+| science-curriculum.md | 70 | 50 |
+| vendors-partners.md | 60 | 40 |
+| entry-strategy.md | 100 | 80 |
+| pitch-notes.md | 70 | 60 |
+
+**Content Spot-Checks:**
+- [ ] CDS code present in profile.md
+- [ ] Enrollment sourced (with URL or document name)
+- [ ] Primary contact has verified email (from district website, not guessed)
+- [ ] CAASPP data included with source URL
+- [ ] "The Hook" in entry-strategy.md references district-specific data (not generic)
+- [ ] At least 5 objection responses in pitch-notes.md
+
+**Cross-File Consistency:**
+- [ ] Primary contact name matches across README.md, contacts.md, and entry-strategy.md
+- [ ] Enrollment number matches across README.md and profile.md
+- [ ] District name and slug are consistent across all files
+
+**Repo-Level Checks:**
+- [ ] comparison.xlsx updated with new district row (all 8 sheets)
+- [ ] pipeline.md updated with new pipeline entry
+
+**Output a validation summary table like this before committing:**
+
+```
+## Validation Summary: [District Name]
+
+| Check | Status | Notes |
+|-------|--------|-------|
+| Files (9/9) | ✅ | All present |
+| README.md (XX lines) | ✅/⚠️ | [meets/below] minimum |
+| profile.md (XX lines) | ✅/⚠️ | [meets/below] minimum |
+| contacts.md (XX lines) | ✅/⚠️ | [meets/below] minimum |
+| lcap-extract.md (XX lines) | ✅/⚠️ | [meets/below] minimum |
+| board-meetings.md (XX lines) | ✅/⚠️ | [meets/below] minimum |
+| science-curriculum.md (XX lines) | ✅/⚠️ | [meets/below] minimum |
+| vendors-partners.md (XX lines) | ✅/⚠️ | [meets/below] minimum |
+| entry-strategy.md (XX lines) | ✅/⚠️ | [meets/below] minimum |
+| pitch-notes.md (XX lines) | ✅/⚠️ | [meets/below] minimum |
+| CDS code present | ✅/❌ | |
+| Enrollment sourced | ✅/❌ | |
+| Primary contact verified | ✅/❌ | |
+| CAASPP with source | ✅/❌ | |
+| Hook is district-specific | ✅/❌ | |
+| 5+ objection responses | ✅/❌ | |
+| Cross-file: contact name | ✅/❌ | |
+| Cross-file: enrollment | ✅/❌ | |
+| comparison.xlsx updated | ✅/❌ | |
+| pipeline.md updated | ✅/❌ | |
+```
+
+If any check fails, fix it before proceeding to Step 5.
 
 ### Step 5: Commit and Push
 
