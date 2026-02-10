@@ -47,6 +47,7 @@ pipeline.md           # Sales pipeline
 | District | Status | Entry Contact | Next Step |
 |----------|--------|---------------|-----------|
 | Rialto USD | Research Complete | Juanita Chan-Roden | Schedule intro call |
+| San Bernardino City USD | Research Complete | Dr. Randy Clyde (STEAM Director) | Send intro email (Feb 24) |
 
 ## ModelIt Value Proposition
 

@@ -29,12 +29,12 @@
 
 ## The Hook
 
-> "Rialto's STEM CARES program is exactly the kind of environmental stewardship work that computational modeling was built for. I'd love to show your team how students can build and test systems models of the local environmental issues they're already investigating - water quality, air pollution, ecosystem changes - and see the math and science come alive through simulation. With 86% of your students being Hispanic, our bilingual platform means every student can engage in their strongest language."
+> "Rialto's STEM CARES program is exactly the kind of environmental stewardship work that computational modeling was built for. I'd love to show your team how students can build and test systems models of the local environmental issues they're already investigating - water quality, air pollution, ecosystem changes - and see the math and science come alive through simulation. With 86% of your students being Hispanic and a strong equity focus, ModelIt's visual, intuitive interface helps all students engage with complex systems regardless of reading level."
 
 **References specific to Rialto**:
 - STEM CARES environmental focus
 - Local environmental issues (Inland Empire air quality, water)
-- 86% Hispanic population + bilingual support
+- 86% Hispanic population + visual/intuitive interface for equity
 - Math proficiency gap (23.73% vs 34% state average)
 
 ---
@@ -90,7 +90,7 @@
 ### Phase 2: Demonstration (Mar-Apr 2026)
 1. Schedule hands-on demo with STEM team (Chan-Roden, D'Souza, Serrato)
 2. Show models aligned to their existing curriculum (Discovery Ed topics)
-3. Demonstrate bilingual features
+3. Demonstrate visual modeling interface and accessibility features
 4. Present NSF SBIR research evidence
 5. Invite Dr. Goodly for math integration angle
 
@@ -149,7 +149,7 @@
 | Modeling proficiency | 70%+ demonstrate proficiency on modeling rubric | Pre/post assessment |
 | Math connection | Students can articulate math-modeling link | Student focus groups |
 | NGSS Practice alignment | Models address Practice 2 & 5 | Curriculum review |
-| Bilingual usage | EL students engage at equal rates | Platform analytics |
+| EL student engagement | EL students engage at equal rates | Platform analytics |
 
 ---
 

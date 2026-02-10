@@ -1,6 +1,6 @@
 # ModelIt District Sales Pipeline
 
-**Last Updated**: 2026-02-11 (Wave 5: Fountain Valley SD — high-performing OC district)
+**Last Updated**: 2026-02-16 (Wave 6: San Bernardino City USD — largest Inland Empire district)
 
 ---
 
@@ -25,7 +25,8 @@
 
 | District | Stage | Primary Contact | Next Action | Target Date | Est. Value | Notes |
 |----------|-------|----------------|-------------|-------------|-----------|-------|
-| Rialto USD | 1 - Identified | Juanita Chan-Roden (jchan@rialtousd.org) | Send intro email | Mar 2026 | $15K pilot → $100K+ scale | STEM CARES hook, math gap, bilingual |
+| Rialto USD | 1 - Identified | Juanita Chan-Roden (jchan@rialtousd.org) | Send intro email | Mar 2026 | $15K pilot → $100K+ scale | STEM CARES hook, math gap, visual/accessible design |
+| San Bernardino City USD | 1 - Identified | Dr. Randy Clyde (steam@sbcusd.k12.ca.us) | Send intro email | Feb 24, 2026 | $50K pilot → $250K+ scale | C-STEM Superintendent, dedicated STEAM Dept, Del Vallejo STEAM Academy pilot, greenfield for modeling tools |
 | San Pasqual Union ESD | 1 - Identified | Mark Burroughs (mark.burroughs@sanpasqualunion.net) | Attend Saints Soirée, send intro email | Mar 2026 | $3-5K pilot | Zoo Safari Park hook, STEM teachers, closest to home |
 | Borrego Springs USD | 1 - Identified | Dr. Mark Stevens (TBD) | Phone call to superintendent | Mar 2026 | $5-10K district-wide | 15% math proficiency, 87% Hispanic, desert ecology hook |
 | Lucerne Valley USD | 1 - Identified | Aaron Jones (aaron_jones@lucernevalleyusd.org) | Email intro re: Dashboard recovery | Feb-Mar 2026 | $5-10K pilot → $15K scale | 10.69% math, red Dashboard, STEM Lab, CTE 80%+ participation |
@@ -46,14 +47,14 @@
 | Stage | Count | Est. Total Value |
 |-------|-------|-----------------|
 | Research | 0 | - |
-| Identified | 13 | $148-650K |
+| Identified | 14 | $198-900K |
 | Contacted | 0 | - |
 | Engaged | 0 | - |
 | Demo | 0 | - |
 | Pilot Proposed | 0 | - |
 | Pilot Active | 0 | - |
 | Won | 0 | - |
-| **Total** | **13** | **$148K-650K** |
+| **Total** | **14** | **$198K-900K** |
 
 ---
 
@@ -62,7 +63,7 @@
 When selecting new districts for analysis, prioritize:
 
 1. **Math proficiency below state average** (< 34%) - bigger gap = bigger need
-2. **High Hispanic/Latino enrollment** (> 50%) - bilingual feature differentiator
+2. **High Hispanic/Latino enrollment** (> 50%) - visual/intuitive interface benefits EL students
 3. **Active STEM programs** - existing champions who understand the space
 4. **LCAP cycle alignment** - Jan-June development window for next year
 5. **Geographic proximity** - San Diego, Inland Empire, LA County first (for in-person demos)
@@ -73,7 +74,7 @@ When selecting new districts for analysis, prioritize:
 
 | District | County | Enrollment | Why | Priority |
 |----------|--------|-----------|-----|----------|
-| San Bernardino City USD | San Bernardino | ~48,000 | Nearby, large, similar demographics | High |
+| ~~San Bernardino City USD~~ | ~~San Bernardino~~ | ~~~48,000~~ | ~~COMPLETED - moved to Active Pipeline~~ | ~~Done~~ |
 | ~~Fontana USD~~ | ~~San Bernardino~~ | ~~~36,000~~ | ~~MOVED TO ACTIVE PIPELINE~~ | ~~Done~~ |
 | Compton USD | Los Angeles | ~20,000 | Alvarez previously worked here | Medium |
 | Escondido Union HSD | San Diego | ~8,000 | Local to Carlsbad, north SD County | Medium |

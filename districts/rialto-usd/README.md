@@ -32,7 +32,7 @@
 2. **STEM champion on board**: Joseph Martinez, Board President
 3. **Active STEM programs**: STEM CARES, MESA, Amazon Future Engineer
 4. **New superintendent**: Dr. Alvarez (Dec 2025) - fresh start, open to new initiatives
-5. **Equity alignment**: 86% Hispanic, bilingual ModelIt support
+5. **Equity alignment**: 86% Hispanic, ModelIt's visual/intuitive interface reduces language barriers
 6. **Environmental focus**: STEM CARES aligns with ModelIt systems modeling
 7. **CTE pathways**: Biotech, health science, engineering - all need modeling tools
 
