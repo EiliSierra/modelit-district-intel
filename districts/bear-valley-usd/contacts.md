@@ -91,3 +91,16 @@
 - **LtCol Roberts has military ed background**: Director of Education/Training for Air National Guard. He values structured, measurable training — position ModelIt with data and outcomes.
 - **Sudie Smartt is the teacher voice**: 19 years in the classroom at Big Bear Elementary. She will evaluate curriculum tools from a practitioner lens. Having teacher champions is essential before she votes.
 - **Small mountain community = everyone knows everyone**: A single campus visit to BBHS can reach multiple department leads. The community is tight-knit and word travels fast.
+- **Education Trust as connector**: The Big Bear Valley Education Trust connects the district to industry (Mitsubishi Cement, Solar Observatory). Their Real World Project already introduces students to STEM careers — ModelIt can integrate with this programming.
+
+---
+
+## Verification Needed
+
+- [ ] Verify Brian Willemse email (currently inferred from pattern)
+- [ ] Verify department lead emails (McKenzie Wolf, Ashley Garza, Jeremy Little)
+- [ ] Identify CTE Coordinator or pathway lead (if separate from Brian Willemse)
+- [ ] Confirm Linda Rosado title and email (CBO/Business Services)
+- [ ] Identify school principals at Baldwin Lane, North Shore, Big Bear Middle, Big Bear HS
+- [ ] Verify board member email pattern (Dr. Foulkes, Smartt, Herrick, Zamoyta)
+- [ ] Confirm LtCol Roberts email format (reversed pattern: roberts_jack vs jack_roberts)
