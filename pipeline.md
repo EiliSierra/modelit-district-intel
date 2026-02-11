@@ -1,6 +1,6 @@
 # ModelIt District Sales Pipeline
 
-**Last Updated**: 2026-02-09
+**Last Updated**: 2026-02-10
 
 ---
 
@@ -28,6 +28,9 @@
 | Rialto USD | 1 - Identified | Juanita Chan-Roden (jchan@rialtousd.org) | Send intro email | Mar 2026 | $15K pilot → $100K+ scale | STEM CARES hook, math gap, bilingual |
 | San Pasqual Union ESD | 1 - Identified | Mark Burroughs (mark.burroughs@sanpasqualunion.net) | Attend Saints Soirée, send intro email | Mar 2026 | $3-5K pilot | Zoo Safari Park hook, STEM teachers, closest to home |
 | Borrego Springs USD | 1 - Identified | Dr. Mark Stevens (TBD) | Phone call to superintendent | Mar 2026 | $5-10K district-wide | 15% math proficiency, 87% Hispanic, desert ecology hook |
+| Lucerne Valley USD | 1 - Identified | Aaron Jones (aaron_jones@lucernevalleyusd.org) | Email intro re: Dashboard recovery | Feb-Mar 2026 | $5-10K pilot → $15K scale | 10.69% math, red Dashboard, STEM Lab, CTE 80%+ participation |
+| Rim of the World USD | 1 - Identified | Jennifer Whiteside (jennifer_whiteside@rimsd.k12.ca.us) | Email intro re: math gap + Measure E | Mar 2026 | $10-15K pilot → $30K+ scale | 17% math, $71M bond, renewable energy, mountain ecology |
+| Bear Valley USD | 1 - Identified | Leigh Anne Drake (leighanne_drake@bearvalleyusd.org) | Email intro re: BEARTECH + math gap | Mar 2026 | $5-10K pilot → $15K scale | 30% math, Physics PhD board president, BEARTECH program |
 
 ---
 
@@ -36,14 +39,14 @@
 | Stage | Count | Est. Total Value |
 |-------|-------|-----------------|
 | Research | 0 | - |
-| Identified | 3 | $23-115K |
+| Identified | 6 | $43-175K |
 | Contacted | 0 | - |
 | Engaged | 0 | - |
 | Demo | 0 | - |
 | Pilot Proposed | 0 | - |
 | Pilot Active | 0 | - |
 | Won | 0 | - |
-| **Total** | **3** | **$23K-115K** |
+| **Total** | **6** | **$43K-175K** |
 
 ---
 
