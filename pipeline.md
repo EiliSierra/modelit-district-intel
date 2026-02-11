@@ -1,6 +1,6 @@
 # ModelIt District Sales Pipeline
 
-**Last Updated**: 2026-02-11 (Wave 4: SB County large districts)
+**Last Updated**: 2026-02-11 (Wave 5: Fountain Valley SD — high-performing OC district)
 
 ---
 
@@ -34,6 +34,7 @@
 | Valley Center-Pauma USD | 1 - Identified | Mark Hailwood (hailwood.ma@vcpusd.org) | Email intro re: math priority + agriculture | Feb-Mar 2026 | $10-15K pilot → $25K scale | 18% math, new supt w/ math priority, FFA, Dual Immersion, solar STEAM, tribal MOUs |
 | La Habra City SD | 1 - Identified | Dr. Patricia Sandoval (TBD — use Contact Us form) | Phone call to district office, request meeting | Mar 2026 | $10-15K pilot → $25-40K scale | 86% Hispanic, 80% ED, $73M Measure O bond, STEAM Academies, PLTW, 11.78% EL math |
 | Fontana USD | 1 - Identified | Dolly Bergen (dolly.bergen@fusd.net) | Contact Dr. Alvarez for warm intro; email Bergen + Lawe | Feb-Mar 2026 | $40-75K pilot → $150-300K+ scale | 33K students, 77% not meeting math, $408M Measure I, Bio Animakerspace, WRO robotics, warm connection Dr. Alvarez (Rialto USD Supt) |
+| Fountain Valley SD | 1 - Identified | Dr. Jerry Gargus (TBD email) | Email intro via district office | Mar 2026 | $10-15K pilot → $30-50K scale | High-performing (74% math), enrichment angle, NGSS, 8 Gold Ribbon Schools, equity gaps (Hispanic 57%, EL 43%), $112M revenue, Measure O $63M bond |
 
 ---
 
@@ -42,14 +43,14 @@
 | Stage | Count | Est. Total Value |
 |-------|-------|-----------------|
 | Research | 0 | - |
-| Identified | 9 | $103-540K |
+| Identified | 10 | $113-590K |
 | Contacted | 0 | - |
 | Engaged | 0 | - |
 | Demo | 0 | - |
 | Pilot Proposed | 0 | - |
 | Pilot Active | 0 | - |
 | Won | 0 | - |
-| **Total** | **9** | **$103K-540K** |
+| **Total** | **10** | **$113K-590K** |
 
 ---
 
