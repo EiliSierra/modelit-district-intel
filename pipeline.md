@@ -1,6 +1,6 @@
 # ModelIt District Sales Pipeline
 
-**Last Updated**: 2026-02-11 (Wave 3: OC districts)
+**Last Updated**: 2026-02-11 (Wave 4: SB County large districts)
 
 ---
 
