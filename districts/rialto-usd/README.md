@@ -46,3 +46,8 @@
 - [vendors-partners.md](vendors-partners.md) - Who the district does business with
 - [entry-strategy.md](entry-strategy.md) - Tailored sales approach
 - [pitch-notes.md](pitch-notes.md) - District-specific talking points
+
+## Ready-For-Review Plan
+
+- [OUTREACH-PLAN.md](OUTREACH-PLAN.md) - Actionable plan + copy/paste emails
+- [RESUMEN-PLAN-COMPLETO.md](RESUMEN-PLAN-COMPLETO.md) - Full Spanish executive writeup (includes emails)
