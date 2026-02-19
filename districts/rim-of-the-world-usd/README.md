@@ -62,3 +62,4 @@
 - [vendors-partners.md](vendors-partners.md) - Who the district does business with
 - [entry-strategy.md](entry-strategy.md) - Tailored sales approach
 - [pitch-notes.md](pitch-notes.md) - District-specific talking points
+
