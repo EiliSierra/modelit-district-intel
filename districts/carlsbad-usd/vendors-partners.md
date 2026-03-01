@@ -1,122 +1,148 @@
 # Carlsbad USD — Vendor & Partner Map
 
 **Last Updated**: 2026-03-01
-**Source**: District website, CUSD curriculum site, CEF website, board meeting news, research
+**Source**: District website, CUSD curriculum site, Carlsbad Educational Foundation website, board meeting news, research
 
 ---
 
 ## Curriculum Publishers
 
-| Vendor | Subject/Grade | Status | Contract Notes | Source |
-|--------|--------------|--------|----------------|--------|
-| Project Lead the Way (PLTW) | Engineering/Biomedical (9–12, Sage Creek); STEM (6–8, Calavera Hills) | ✅ Active | Annual licensing; multi-year relationship | Sage Creek CTE, Calavera Hills STEM |
-| Glencoe (McGraw-Hill) | Biology (HS, Carlsbad Village Academy) | ✅ Confirmed | Standard textbook | District records |
-| Achieve3000 | ELA / differentiated reading (K–12) | ✅ Active | District-wide license | CUSD Curriculum site |
-| Unknown K–5 Science Publisher | Science (K–5) | ❓ Unconfirmed | Possible: FOSS, Amplify, OpenSciEd | [NEEDS VERIFICATION] |
-| Unknown 6–8 Science Publisher | Science (6–8, mainstream) | ❓ Unconfirmed | [NEEDS VERIFICATION from board minutes] | — |
+| Vendor | Program | Grade Band | Status | Notes |
+|--------|---------|-----------|--------|-------|
+| Project Lead the Way (PLTW) | Engineering, Biomedical Sciences, CS, Elementary STEM | K-12 | **Confirmed active** | CA's first K-12 articulated PLTW pathway; Sage Creek HS PLTW Distinguished 2022 |
+| Science curriculum (unknown) | Core science | K-5 | **[NEEDS VERIFICATION]** | Restricted Google Drive; contact Ashley Crawford or call (760) 331-5013 |
+| Science curriculum (unknown) | Core science | 6-8 | **[NEEDS VERIFICATION]** | Same restricted access |
+| Science curriculum (unknown) | Core science | 9-12 | **[NEEDS VERIFICATION]** | Contact Michael Ecker |
+| Math curriculum (unknown) | Core math | K-5 | **[NEEDS VERIFICATION]** | Contact John Moreno (Math TOSA) |
+| Math curriculum (unknown) | Core math | 6-8 | **[NEEDS VERIFICATION]** | Same |
+| Math curriculum (unknown) | Core math | 9-12 | **[NEEDS VERIFICATION]** | Check CHS/SCHS math department pages |
 
 ---
 
-## Assessment & Screening Tools
+## Technology & EdTech Partners
 
-| Vendor | Tool | Grade Range | Status | Source |
-|--------|------|------------|--------|--------|
-| Renaissance | STAR Reading & Math | Grades 1–12 | ✅ Active | CUSD Curriculum site |
-| Amplify | DIBELS 8th Edition | K–2 | ✅ Active | CUSD Curriculum site |
-| California (state) | CAASPP / CAST | Grades 3–8, 11 | ✅ State-mandated | CUSD |
-| California (state) | CA School Dashboard | District-level | ✅ State-mandated | CUSD |
-
----
-
-## Technology Platforms
-
-| Vendor | Platform | Grade Range | Status | Source |
-|--------|---------|------------|--------|--------|
-| Google | Workspace for Education | K–12 | ✅ Active (primary LMS equivalent) | CUSD 1:1 site |
-| Google | Chromebooks (1:1) | 6–12 (hand-down to 3–5) | ✅ Active | CUSD 1:1 site |
-| Google | Gemini AI | Staff/Students | 🔄 In rollout | CUSD AI page |
-| MagicSchool | AI adaptive quizzes + student brainstorming | Staff/Students | ✅ Active (recently adopted) | CUSD AI page |
-| Snorkl | AI student work analysis + teacher feedback | Staff/Students | ✅ Active (recently adopted) | CUSD AI page |
-| TurnItIn / Clarity | Academic integrity + AI detection | 6–12 | ✅ Active | CUSD AI page |
-| Adobe | Creative Cloud with AI features | 6–12 | ✅ Active | CUSD AI page |
-| Canva | Visual design with AI | 6–12 | ✅ Active | CUSD AI page |
-| Alludo | Gamified teacher PD platform | Staff | ✅ Active | Alludo case study |
-| VEX Robotics | PLTW robotics platform | 6–8 (Calavera Hills) | ✅ Active | CUSD STEM |
-| LEGO Education | Spike Essential (elementary robotics) | K–5 | ✅ Active (CEF-funded) | CEF |
+| Vendor | Product | Use Case | Status | Notes |
+|--------|---------|---------|--------|-------|
+| Google (Google Workspace for Education) | Workspace + Gemini | Primary ecosystem; LMS; Chromebook management; AI planned | **Active** | District-wide |
+| Renaissance Learning | STAR Math + STAR Reading | Universal screener Grades 1–12; Lexile scores; RTI data | **Active** | District-wide; confirmed via research |
+| Amplify | DIBELS 8th Edition | Early literacy assessment K–2; phonemic awareness | **Active** | K-2 only |
+| Achieve3000 | Reading differentiation platform | Differentiated nonfiction reading, all grades | **Active** | District-wide |
+| Snorkl | AI student work analysis | Student work feedback; teacher lesson refinement tool | **Active** | Recently adopted 2024-25 |
+| MagicSchool | AI teacher + student tools | Adaptive quizzes, student brainstorming, teacher planning | **Active** | Recently adopted 2024-25 |
+| TurnItIn | Clarity AI integrity tool | Academic integrity detection + AI feedback | **Active** | — |
+| Adobe | Creative Suite (district license) | Creative software for students and teachers | **Active** | District-wide |
+| Canva for Education | Design platform | Student content creation, presentations | **Active** | District-wide |
+| BoardDocs | Board meeting platform | Agenda and minutes management | **Active** | Board-level only |
 
 ---
 
-## Industry & Community Partners
+## STEM Hardware & Robotics Vendors
 
-| Partner | Type | Relationship | Relevance to ModelIt |
-|---------|------|-------------|---------------------|
-| Carlsbad Educational Foundation (CEF) | Local Education Foundation | Primary philanthropic partner; ~$200K+/year in STEM; funds robotics, STEAM labs, Science Olympiad | KEY — co-funding opportunity; CEF is the district's STEM grantmaker |
-| Viasat | Carlsbad-headquartered tech company (satellite comms) | 8-year Science Olympiad sponsor; employee mentors; $2,500 scholarships | Industry credibility; possible STEM advisory relationship |
-| Agua Hedionda Lagoon Foundation (AHLF) | Environmental nonprofit | Grade 3 + 7 field trips and in-school programs; NGSS and STEAM aligned; co-funded with CEF grants | Real-world data collection partner; ModelIt modeling extends lagoon data into systems models |
-| Coastal Roots Farm | Agricultural education nonprofit | CEF-funded farm field trips for elementary; ecology, food systems | Systems modeling hook for ecosystem units |
+| Vendor | Product | Grade Band | School(s) | Funder |
+|--------|---------|-----------|----------|-------|
+| VEX Robotics | VEX EDR/IQ platform | Grade 6 | Calavera Hills Middle School | PLTW |
+| LEGO Education | Spike Essential | Grade 2 | All elementary schools | Carlsbad Educational Foundation |
+| FIRST (For Inspiration and Recognition of Science and Technology) | LEGO League competition kits | Grades 4–8 | District-wide | FIRST / CEdF |
+| FIRST | Tech Challenge robot kits | Grades 9–12 | District-wide | FIRST / CEdF |
+| STEAM Lab equipment vendors | Lab furnishings + equipment | TK–5 | 8 elementary schools | Measure HH Bond |
+
+---
+
+## Assessment Vendors
+
+| Vendor | Assessment | Grade Band | Use |
+|--------|-----------|-----------|-----|
+| Renaissance Learning | STAR Math + STAR Reading | 1–12 | Universal screener, Lexile, RTI benchmarking |
+| Amplify | DIBELS 8th Edition | K–2 | Early literacy, phonemic awareness |
+| California Department of Education / ETS | SBAC (CAASPP) + CAST | 3–8, 11 + 5, 8, 10 | State accountability |
+| College Board | SAT, PSAT, AP exams | 9–12 | College readiness |
+| TBD | Formative assessment tools | K-12 | [NEEDS VERIFICATION] |
+
+---
+
+## Community & Nonprofit Partners
+
+| Partner | Type | Programs Funded | Grade Band |
+|---------|------|----------------|-----------|
+| **Carlsbad Educational Foundation (CEdF)** | Primary community funder | LEGO robotics, FIRST FLL + FTC, Science Days, Science Olympiad, Agua Hedionda trips, Coastal Roots Farm, Discovery Museum Mobile Lab, field trips | TK–12 |
+| Agua Hedionda Lagoon Foundation | Environmental education | Lagoon ecosystem field education, water quality exploration | Grade 3 |
+| Coastal Roots Farm | Field learning | Agriculture, ecology, food systems field trips | TK–K, Grade 4 |
+| San Diego Children's Discovery Museum | Mobile science lab | Grade 1 mobile hands-on science experience | Grade 1 |
+| FIRST | STEM competition organization | FLL (Grades 4–8), FTC (Grades 9–12) | 4–12 |
+
+---
+
+## CTE / Industry Partners
+
+| Partner | CTE Pathway | School | Notes |
+|---------|------------|--------|-------|
+| Project Lead the Way | Engineering, Biomedical, CS | Sage Creek HS, CHS | Primary CTE curriculum partner |
+| Local biomedical/health firms | Biomedical Sciences | Sage Creek HS | TBD — [NEEDS VERIFICATION] |
+| Local engineering firms | Engineering pathway | Sage Creek HS | TBD — [NEEDS VERIFICATION] |
+| Construction industry | Construction Technology | Carlsbad HS | TBD — [NEEDS VERIFICATION] |
+| Film/media industry | Film Academy, Broadcast Journalism | Carlsbad HS | TBD — [NEEDS VERIFICATION] |
+
+---
+
+## Professional Development Providers
+
+| Provider | PD Focus | Status |
+|---------|---------|--------|
+| Project Lead the Way | PLTW teacher certification, annual PD | Active |
+| FIRST | Robotics team coaching certifications | Active |
+| Google for Education | Workspace admin, Gemini, Certified Educator | Active |
+| TBD — NGSS PD provider | NGSS implementation and science practices | [NEEDS VERIFICATION] — check LCAP budget |
+| TBD — Math PD provider | Curriculum-specific PD (aligned to math adoption) | [NEEDS VERIFICATION] |
+| TBD — ELD PD provider | English Language Development | [NEEDS VERIFICATION] |
 
 ---
 
 ## University Partnerships
 
-| Partner | Relationship | Status |
-|---------|-------------|--------|
-| PLTW University Partners (100+) | Academic credit for PLTW capstone completion at Sage Creek | ✅ Active (via PLTW) |
-| Concordia University | Superintendent Norman is adjunct professor | Personal connection only (not formal district MOU) |
-| UC San Diego / SDSU | Regional K–12 partnership programs (generic) | ❓ No specific CUSD agreement confirmed |
-
----
-
-## PD Providers
-
-| Vendor | Type | Status | Notes |
-|--------|------|--------|-------|
-| Alludo | Gamified teacher professional development platform | ✅ Active | District-wide; staff earn PD credits through challenges |
-| PLTW | CTE teacher training and certification | ✅ Active | Required for PLTW teachers at Calavera Hills and Sage Creek |
-| TBD | NGSS PD vendor | ❓ Unconfirmed | Ashley Crawford may coordinate external NGSS PD |
+| Partner | Type | Notes |
+|---------|------|-------|
+| TBD | Research or dual enrollment | [NEEDS VERIFICATION] — check district website |
+| Palomar College | Possible dual enrollment | [NEEDS VERIFICATION] — common with SD County USDs |
+| CSU San Marcos | Possible teacher pipeline | [NEEDS VERIFICATION] |
 
 ---
 
 ## Vendor Landscape Analysis
 
 ### Where ModelIt Fits
-
-| Category | Current Landscape | ModelIt's Role |
-|---------|-----------------|----------------|
-| Science curriculum (K–5) | Unknown publisher | Supplement / NGSS SEP-2 enrichment layer |
-| Science curriculum (6–8) | PLTW modules + unknown mainstream | Direct complement to PLTW modeling; adds computational systems thinking |
-| Science curriculum (9–12) | PLTW Engineering + Biomedical | Enriches capstone modeling in EDD and Biomedical Innovation |
-| EdTech suite | Google-centric; AI tools expanding | Fits as NGSS-aligned STEM tool; needs CA NDPA data privacy agreement |
-| Environmental education | AHLF field trips | ModelIt: students build system models FROM lagoon field data |
+- **Fills the SEP 2 + SEP 5 gap**: No current tool in Carlsbad's stack explicitly teaches students to build computational systems models — ModelIt enters a greenfield niche
+- **Not competitive** with any confirmed vendor — complements PLTW, STEAM Labs, robotics, and science curriculum
+- **Bilingual differentiation**: No confirmed bilingual STEM instructional tool in current stack — unique positioning for EL subgroup
 
 ### Warm Intro Paths
+| Path | How |
+|------|-----|
+| Carlsbad Educational Foundation | CEdF already funds science programs; approach CEdF for grant or co-sponsorship; contact CEdF Executive Director |
+| PLTW Network | If ModelIt has PLTW partner status or PLTW connections, use that for Nicole Moersch (CTE TOSA) and Sage Creek HS team |
+| Google for Education ecosystem | ModelIt on Chromebooks via Google Workspace = natural conversation with Joseph Hartman (Dir. Assessment & Tech) |
+| SDCOE (San Diego County Office of Ed) | Regional STEM network — warm intro through SDCOE STEM coordinator |
+| Other San Diego USD contacts | If ModelIt is active in other SD County districts (e.g., San Pasqual Union, Valley Center-Pauma), a peer reference call is powerful |
 
-| Path | Description | Likelihood |
-|------|-------------|-----------|
-| Through PLTW network | ModelIt presents as PLTW-complementary modeling tool at PLTW conference or with PLTW curriculum director | Medium |
-| Through CEF | Carlsbad Educational Foundation relationship — CEF funds STEM and might co-fund a ModelIt pilot | Medium |
-| Through NGSS/CDE professional networks | Ashley Crawford likely attends CA Science Teachers Association (CSTA) events | Medium-High |
-| Through Viasat | Viasat has STEM program relationships; potential to be introduced through their employee STEM programs | Low-Medium |
-| Direct outreach to Ashley Crawford | Email directly to K-12 Science TOSA | Recommended first step |
-
-### Competitive Threats
-
-| Threat | Details | Mitigation |
-|--------|---------|-----------|
-| Entrenched PLTW | PLTW is deeply embedded at middle and high school; district invested in teacher training | Position as SEP-2 modeling complement, not PLTW alternative |
-| Budget deficit | ~$3M structural shortfall; minimal Title I; limited discretionary funds | Target LCFF supplemental (EL hook) + CEF co-funding |
-| Google-first culture | All-Google environment; new tools must play well with Chromebooks and Google Workspace | Confirm ModelIt runs in Chrome browser; minimal IT overhead |
-| AI tool saturation | MagicSchool, Snorkl, Gemini already approved; Robert Allen scrutinizes new tools | Differentiate as curriculum tool, not AI tool; lead with NGSS SEP-2 |
+### Competitive Risk Assessment
+| Threat | Likelihood | Mitigation Strategy |
+|--------|-----------|---------------------|
+| Budget freeze (deficit $7.5M) | **High** | Secure non-general-fund pathway first: Measure HH bond + Title IV + CEdF grant |
+| PhET (free, widely available) | **Medium** | Position as higher-order: PhET = interact with models; ModelIt = BUILD models — different cognitive level |
+| Gizmos / ExploreLearning | **Low-Medium** | Gizmos are teacher-led; ModelIt is student-driven inquiry — complementary |
+| "We already have PLTW" | **Low** | ModelIt explicitly extends PLTW — not competitive; use as co-sell argument |
+| "Too many tools already" | **Medium** | Single-focus tool; one-page alignment map showing no overlap with current stack |
 
 ---
 
-## Verification Checklist
+## Verification Needed Checklist
 
-- [ ] K–5 science curriculum publisher (most critical gap)
-- [ ] 6–8 science curriculum publisher (mainstream, beyond PLTW)
-- [ ] September 2024 textbook adoption titles (board minutes)
-- [ ] Any existing computational modeling tools (NetLogo, Vensim, PhET, Desmos science models)
-- [ ] PLTW annual license cost from board consent calendars
-- [ ] CEF STEM grant application cycle and deadlines
-- [ ] CA NDPA data privacy agreement process with Robert Allen
-- [ ] Whether Viasat has a formal CUSD partnership MOU or just event sponsorship
+- [ ] K-12 science curriculum publisher(s) — call (760) 331-5013 or email acrawford@carlsbadusd.net
+- [ ] K-12 math curriculum publisher(s) — call (760) 331-5013 or email jmoreno@carlsbadusd.net
+- [ ] STEAM Lab equipment/furniture vendors — check Measure HH Independent Oversight Committee reports
+- [ ] PD providers for science and math — review LCAP budget section PDFs
+- [ ] University partnerships — check carlsbadusd.net programs page
+- [ ] Industry CTE partners at Sage Creek and CHS — check individual school CTE pages
+- [ ] PLTW contract renewal dates — contact Nicole Moersch or check BoardDocs for contract dates
+- [ ] Is Discovery Education used? Common in CA — verify with Ashley Crawford
+- [ ] Is PhET or Gizmos actively assigned by teachers? Confirm with Science TOSA
+- [ ] Any new EdTech pilots approved in 2025-26 LCAP? Check LCAP PDF for technology actions
