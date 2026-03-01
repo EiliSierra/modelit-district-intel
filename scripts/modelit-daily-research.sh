@@ -4,6 +4,9 @@
 # Runs Claude Code in non-interactive mode to research each district
 set -euo pipefail
 
+# Source environment variables (for non-interactive shells)
+[ -f /root/.modelit-env ] && source /root/.modelit-env
+
 BATCH_SIZE=${1:-10}
 REPO_DIR="/root/modelit-district-intel"
 SCRIPTS_DIR="$REPO_DIR/scripts"
