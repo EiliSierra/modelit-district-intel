@@ -1,6 +1,6 @@
 # ModelIt District Sales Pipeline
 
-**Last Updated**: 2026-02-16 (Wave 6: San Bernardino City USD — largest Inland Empire district)
+**Last Updated**: 2026-03-01 (Wave 7: Carlsbad USD — first San Diego coastal district)
 
 ---
 
@@ -39,6 +39,7 @@
 | NuView Union SD | 1 - Identified | Erica Williams (TBD - verify email) | Email/phone intro re: STEM Lab + NGSS gap | Feb-Mar 2026 | $5-8K pilot → $8-15K scale | 85% Hispanic, 22% math, 18% science, pre-NGSS Harcourt curriculum, STEM Lab at Mountain Shadows, bilingual imperative |
 | Romoland ESD | 1 - Identified | Dr. Michelle Echiverri (echiverri@romoland.net) | Email/phone intro re: math gap + NGSS | Feb-Mar 2026 | $5-8K pilot → $8-15K scale | 72% Hispanic, 15% math, 92% ED, 30% EL, growing sub-urban district |
 | Banning USD | 1 - Identified | [Ed Services Director TBD] (verify email) | Email/phone intro re: math growth success | Feb-Mar 2026 | $15-25K pilot → $15-30K scale | 75% Hispanic, 15% math, outperformed county/state in growth, K-12 with CTE |
+| Carlsbad USD | 1 - Identified | Ashley Crawford (acrawford@carlsbadusd.net) | Send intro email — NGSS SEP-2 + STEAM lab + EL science gap hook | Mar 2026 | $10-25K pilot → $50K+ scale | 55% White, 61.6% math (EL gap 19.2% science), Measure HH $265M STEAM labs, PLTW Distinguished, new Supt June 2025 |
 
 ---
 
@@ -47,14 +48,14 @@
 | Stage | Count | Est. Total Value |
 |-------|-------|-----------------|
 | Research | 0 | - |
-| Identified | 14 | $198-900K |
+| Identified | 15 | $208-950K |
 | Contacted | 0 | - |
 | Engaged | 0 | - |
 | Demo | 0 | - |
 | Pilot Proposed | 0 | - |
 | Pilot Active | 0 | - |
 | Won | 0 | - |
-| **Total** | **14** | **$198K-900K** |
+| **Total** | **15** | **$208K-950K** |
 
 ---
 
