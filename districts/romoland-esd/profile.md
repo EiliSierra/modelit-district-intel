@@ -18,9 +18,9 @@
 | Phone | (951) 926-9244 | CDE |
 | Website | https://www.romoland.net | CDE |
 | Grade Span | K-8 | CDE |
-| Number of Schools | 5 | NCES |
-| Enrollment | 4,800 (2024-25); 4,617 (2023-24) | NCES/CDE |
-| Superintendent | Trevor Painter | District website |
+| Number of Schools | 7 | District website (2026) |
+| Enrollment | 5,050 (2025-26); 4,617 (2023-24) | NCES/CDE |
+| Superintendent | Trevor Painton | District website |
 | Per-Pupil Revenue | ~$14,500 (est.) | Calculated |
 | Per-Pupil Expenditure | ~$12,200 (est.) | Calculated |
 | Total Revenue | ~$67M (2023-24) | NCES |
@@ -30,13 +30,17 @@
 
 ### Schools
 
-| School | Grades | Enrollment | Notes |
-|--------|--------|------------|-------|
-| Romoland Elementary | K-6 | TBD |
-| Boulder Ridge Elementary | K-6 | TBD |
-| Highland Elemenatry | K-6 | TBD |
-| Meadow Pass Elementary | K-6 | TBD |
-| Romoland Middle | 7-8 | TBD |
+| School | Grades | Address | Phone | Principal |
+|--------|--------|---------|-------|-----------|
+| Romoland Elementary | TK–5 | 25890 Antelope Road, Menifee, CA 92585 | (951) 928-2910 | Estela Munoz |
+| Boulder Ridge Elementary | TK–5 | 27327 Junipero Road, Menifee, CA 92585 | (951) 723-8931 | Mary Godoy |
+| Harvest Valley Elementary | TK–5 | 29955 Watson Road, Menifee, CA 92585 | (951) 928-2915 | Kristine Sherrett |
+| Mesa View Elementary | TK–5 | 27227 W. Heritage Lake Drive, Menifee, CA 92585 | (951) 723-1284 | Heather Hilz Fitzgerald |
+| Granite Hills TK-8 | TK–8 | 200 Ethanac Road, Perris, CA 92570 | (951) 926-9189 | Kait Punzel |
+| Hillside Innovation Academy | TK–8 | 27327 Junipero Road, Menifee, CA 92585 | (951) 926-9649 | Lilly Ellefsen |
+| Ethan A. Chase Middle School | 6–8 | 28100 Calm Horizon Drive, Menifee, CA 92585 | (951) 566-4400 | Dr. Kristie Jackson |
+
+**Note**: Earlier research listed 5 schools (Highland Elementary, Meadow Pass Elementary, Romoland Middle School) that do not appear on the current district website. These may have been renamed or the prior research was based on outdated data.
 
 ## Demographics
 
@@ -107,7 +111,7 @@
 |------|------|---------|
 | Dr. Michelle Echiverri | Director of Educational Services | echiverri@romoland.net |
 | Dr. Michelle Wise | Assistant Superintendent, Educational Services | mwise@romoland.net |
-| Trevor Painter | Superintendent | tpainton@romoland.net |
+| Trevor Painton | Superintendent | tpainton@romoland.net |
 
 ### Notable STEM Infrastructure
 - **Hands-on science labs** — Laboratory-based instruction emphasized
@@ -167,7 +171,7 @@
 
 ## Superintendent Profile
 
-**Trevor Painter** - Superintendent
+**Trevor Painton** - Superintendent
 - **Leadership**: Superintendent of Romoland Elementary School District
 - **Mission**: District emphasizes student achievement and growth
 - **Context**: Suburban fringe district with growing enrollment
