@@ -1,6 +1,6 @@
 # La Habra City School District - Entry Strategy
 
-**Last Updated**: 2026-02-11
+**Last Updated**: 2026-03-02
 **Pipeline Stage**: 1 - Identified
 **District Type**: Medium suburban K-8 district (4,244 students)
 
@@ -56,13 +56,21 @@
 
 | # | Name | Title | Leverage Point |
 |---|------|-------|---------------|
-| 1 | Dr. Patricia Sandoval | Asst. Supt. of Educational Services | Primary curriculum buyer. Background in Innovative Education. New in role (Jan 2024). |
-| 2 | Dr. Mario A. Carlos | Superintendent | 20+ year veteran. Bilingual background. Final budget authority. |
-| 3 | Emily Flesher | Director of Special Programs & Assessment | Assessment data. Can validate CAASPP alignment. Controls categorical funds. |
-| 4 | Anna Navarro | Program Specialist, Multilingual Support | Direct EL connection. Can champion bilingual ModelIt for 21% EL students. |
-| 5 | Jody Green | Academic Coach | Classroom-level influencer. Can advocate to teachers across the district. |
-| 6 | Imperial MS Principal (TBD) | Principal | Science & Technology Academy site. Natural pilot school leader. |
-| 7 | Justin Rodgers | Board President | Board awareness for formal approvals if needed. |
+| 1 | Dr. Patricia Sandoval | Asst. Supt. of Educational Services | Primary curriculum buyer. Background in Innovative Education. New in role (Jan 2024). She decides what tools enter classrooms. |
+| 2 | Janet Delgado-Gutierrez | Executive Asst., Ed Services | **Gatekeeper to Dr. Sandoval's calendar.** Route all meeting requests through her first — she controls access. |
+| 3 | Dr. Mario A. Carlos | Superintendent | 20+ year veteran. Taught at Walnut, led Washington MS. Personal connection to both pilot schools. Final budget authority. |
+| 4 | Emily Flesher | Director of Special Programs & Assessment | Assessment data. Can validate CAASPP alignment. Controls categorical fund line items (Title I, LCFF). |
+| 5 | Anna Navarro | Program Specialist, Multilingual Support | Direct EL connection. Champion for bilingual ModelIt for 21% EL students. Title III pathway. |
+| 6 | David Soto | Chief Technology Officer | Tech clearance gate-keeper. Get him on board early — prevents a tech veto from blocking an approved deal. |
+| 7 | Victor Johnson | Principal, Imperial Middle School | Science & Technology Academy + IB-MYP site. Top pilot candidate. IB design cycle = ModelIt natural fit. |
+| 8 | Greg White | Principal, Washington Middle School | Dr. Carlos's former school (10 years as principal). Strong second pilot candidate. Email confirmed: gwhite@lahabraschools.org |
+| 9 | Dr. Alma Noche | Principal, Walnut Elementary (STEAM Academy) | STEAM Academy = primary elementary pilot site. Grades 5–6. Dr. Carlos taught here. Email confirmed: anoche@lahabraschools.org |
+| 10 | Dr. Rosa Murillo | Principal, Ladera Palma (Dual Immersion Academy) | Bilingual showcase site. Spanish-language ModelIt pilot validates Title III positioning for Anna Navarro. |
+| 11 | Jacqueline Jenkins | Principal, Las Positas (IB-PYP) | IB-PYP feeder into Imperial IB-MYP. Creates K-8 computational thinking pipeline. |
+| 12 | Jessica Stout-Ryder | Student Enrichment & Wellness Specialist | ELO-P connection. Can fund a small after-school pilot without touching the general fund. |
+| 13 | Jody Green | Academic Coach | Classroom-level influencer. Advocates to teachers district-wide once she sees ModelIt in action. |
+| 14 | Minerva Sigüenza Gómez | Board Member | Bilingual/equity signal. Most likely board champion for the EL science gap pitch. |
+| 15 | Justin Rodgers | Board President | Board awareness for formal approvals when purchase exceeds district threshold. |
 
 ---
 
@@ -97,7 +105,7 @@ In a medium-sized K-8 district, the decision process follows standard channels:
 | Action | Detail | Timeline |
 |--------|--------|----------|
 | Virtual demo for Dr. Sandoval + team | Show ModelIt with local phenomena models | Mar-Apr 2026 |
-| Imperial MS campus visit | Tour Science & Technology Academy, meet PLTW teachers | Apr 2026 |
+| Imperial MS campus visit (Victor Johnson) | Tour Science & Technology Academy + IB-MYP program, meet PLTW teachers | Apr 2026 |
 | Bilingual demo | Show Spanish-language model building to Anna Navarro / EL team | Same visit |
 | Teacher feedback | Get PLTW/science teachers' reaction | Same visit |
 
