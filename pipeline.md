@@ -1,6 +1,6 @@
 # ModelIt District Sales Pipeline
 
-**Last Updated**: 2026-03-02 (Wave 10: Arvin Union ESD — Kern County, CDE priority score 95/100, no confirmed science vendor, bilingual platform fit, Canvas+Clever ready)
+**Last Updated**: 2026-03-02 (Wave 11: Beardsley Elementary School District — Kern County, CDE priority score 95/100, PLTW already in place at BJHS, no confirmed science publisher, Clever-ready, bilingual fit for 12.8% EL)
 
 ---
 
@@ -43,6 +43,7 @@
 | Brawley Elementary SD | 1 - Identified | Victor Ramirez (vramirez@besd.org — verify) | Send intro email — 1.61% EL science + Padilla-Pace MS greenfield + bilingual platform | Mar 2026 | $5-10K pilot → $25-50K scale | 95% Hispanic, 39% EL, 12.93% science, 1.61% EL science, new Padilla-Pace MS (2024), NO science curriculum vendor, Supt = former Dir. Instructional Tech, CDE priority 95/100 |
 | Calexico USD | 1 - Identified | Korina Tabarez (ktabarez@cusdk12.org) | Send intro email — 12.87% CAST science + 60% Nearly Met + bilingual + Measure Q STEM buildings hook | Mar 2026 | $10-15K pilot → $75-120K scale | 99% Hispanic, 8.8% EL, 12.87% science, 60% Nearly Met at every grade, NO confirmed science vendor (greenfield), $47M Measure Q STEM buildings at CHS, bilingual platform fit, CDE priority 95/100 |
 | Arvin Union ESD | 1 - Identified | Kerrie Nisser (knisser@arvin-do.com) | Send intro email — 15.71% CAST + no confirmed science vendor + Canvas/Clever integration + bilingual + 59% Nearly Met hook | Mar 2026 | $12-25K pilot → $40-60K district-wide | 92.8% Hispanic, 15.5% EL, 15.71% CAST science, ~94% FRPM, NO confirmed science publisher (complete white space), Canvas+Clever already in place, bilingual Dual Immersion program, CDE priority 95/100 |
+| Beardsley Elementary School District | 1 - Identified | [Instructional Services Director - TBD] (instserv@beardsley.k12.ca.us) | Call (661) 393-3077 to identify Instructional Services Director; send intro email — PLTW at BJHS + 11.37% CAST + 3.28% EL science + Clever integration | Mar 2026 | $6-8K pilot → $12-20K district-wide | 63.6% Hispanic, 12.8% EL, 11.37% CAST science, PLTW Design & Modeling + Automation & Robotics + Medical Detectives at BJHS, Mac Robertson = PLTW+RTI Math champion, NO confirmed science publisher, Clever already in place, CDE priority 95/100 |
 
 ---
 
@@ -51,14 +52,14 @@
 | Stage | Count | Est. Total Value |
 |-------|-------|-----------------|
 | Research | 0 | - |
-| Identified | 18 | $235-1,180K |
+| Identified | 19 | $247-1,200K |
 | Contacted | 0 | - |
 | Engaged | 0 | - |
 | Demo | 0 | - |
 | Pilot Proposed | 0 | - |
 | Pilot Active | 0 | - |
 | Won | 0 | - |
-| **Total** | **18** | **$235K-1,180K** |
+| **Total** | **19** | **$247K-1,200K** |
 
 ---
 
