@@ -55,12 +55,18 @@
 
 | # | Name | Title | Leverage Point |
 |---|------|-------|---------------|
-| 1 | Aaron Jones | Director of Academic Programs | NEW role, actively seeking math interventions. Primary buyer. |
-| 2 | Peter Livingston | Superintendent | Tech-forward leader, BestNet President. Final budget authority. |
-| 3 | Jessica Haecker | CTE Coordinator / Asst. Principal | Grant engine ($700K secured). Can write ModelIt into CTE funding. |
-| 4 | Joanna Mora | Elementary Principal | Oversees Bud Biggs STEM Lab. Elementary adoption path. |
-| 5 | Troy Van Bavel | FFA/Ag Teacher | Agriculture modeling use cases. Direct classroom adopter. |
-| 6 | Jason Hansen | Board President | Board awareness for formal approvals. |
+| 1 | Aaron Jones | Director of Academic Programs | NEW role, no vendor loyalty, explicitly tasked with Dashboard improvement. Primary buyer. |
+| 2 | Peter Livingston | Superintendent | Tech-forward leader, BestNet President (county-wide reach). Final budget authority. |
+| 3 | Jessica Haecker | CTE Coordinator / Asst. Principal | Grant engine ($700K secured). Can write ModelIt into Perkins V CTE funding. Also EL & Data Coordinator. |
+| 4 | Jason Story | Principal, MS/HS | Navy veteran. Campus authority to approve classroom pilots at the primary deployment site. |
+| 5 | Guillermo Betancourt | Mathematics Teacher | Army veteran, head coach, key math teacher. The teacher who moves 11% proficiency validates ModelIt's core promise. |
+| 6 | Naomi Oyadomari | AVID Coordinator / 6th Grade | 35-year LVUSD veteran. Institutional credibility. AVID + 6th grade = entry point for both college-readiness and middle school deployment. |
+| 7 | Troy Van Bavel | FFA/Ag Teacher | Agriculture + desert ecology modeling. Direct classroom adopter with 20+ years community trust. |
+| 8 | Michael Haecker | Product Design Teacher | Clearest CTE fit — computational simulation before physical prototyping is the exact ModelIt use case. |
+| 9 | Joanna Mora | Elementary Principal | Oversees Bud Biggs STEM Lab. Elementary expansion path for grades 5–6. |
+| 10 | Olga Fisher | CBO | Controls CSI + Title I + LCFF supplemental budget lines. Must be aligned before any purchase closes. |
+| 11 | Louis Madrid | Esports Curriculum Lead | Built esports from scratch = proven tech champion. Bridge between student engagement culture and ModelIt NGSS modeling. |
+| 12 | Jason Hansen | Board President | Board awareness and formal approval if purchase exceeds superintendent threshold. Navy veteran — responds to structured, outcomes-driven language. |
 
 ---
 

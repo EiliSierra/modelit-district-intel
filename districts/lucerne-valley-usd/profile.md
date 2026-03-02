@@ -19,7 +19,7 @@
 | Fax | (760) 248-6677 | CDE |
 | Website | https://www.lucernevalleyusd.org | CDE |
 | Grade Span | TK-12 (also Adult) | CDE |
-| Number of Schools | 4 (elementary, MS/HS combined, continuation, adult) | NCES |
+| Number of Schools | 4 operational campuses + Virtual Prep Academy charter (see Schools section) | CDE/District |
 | Enrollment | 1,107 (2023-24) | Ballotpedia/U.S. News |
 | Superintendent | Peter Livingston | CDE |
 | Superintendent Start Date | ~2016 (7th year as of 2022-23) | LinkedIn |
@@ -34,11 +34,15 @@
 
 ### Schools
 
-| School | Grades | Enrollment |
-|--------|--------|------------|
-| Lucerne Valley Elementary | K-6 | ~627 |
-| Lucerne Valley MS/HS (combined campus) | 7-12 | ~462 (166 MS + 296 HS) |
-| Mountain View High School (continuation) | 9-12 | ~18 |
+| School | Grades | Enrollment | Address | Principal |
+|--------|--------|------------|---------|-----------|
+| Lucerne Valley Elementary School | K-6 | ~627 | 10788 Barstow Rd, Lucerne Valley, CA 92356 | Joanna Mora |
+| Lucerne Valley Middle School | 7-8 | ~166 | 33233 Rabbit Springs Rd, Lucerne Valley, CA 92356 | Jason Story |
+| Lucerne Valley High School (MS/HS combined campus) | 9-12 | ~296 | 33233 Rabbit Springs Rd, Lucerne Valley, CA 92356 | Jason Story |
+| Mountain View High School (continuation) | 9-12 | ~18 | 8560 Aliento Rd, Lucerne Valley, CA 92356 | Jason Story |
+| Virtual Preparatory Academy at Lucerne (charter) | TK-12 | ~569 | 8560 Aliento Rd, Lucerne Valley, CA 92356 | (separate administration) |
+
+**Note on school count**: The district operates 3 physical campuses (Elementary, MS/HS combined, Mountain View) plus administers a TK-12 virtual charter school (Virtual Preparatory Academy). CDE lists Lucerne Valley Middle and Lucerne Valley High as separate schools on the same campus. The district website refers to "3 campuses." NCES counts 4 schools. All are under one district umbrella.
 
 ## Demographics
 
