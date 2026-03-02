@@ -1,6 +1,6 @@
 # Fountain Valley School District - Entry Strategy
 
-**Last Updated**: 2026-02-11
+**Last Updated**: 2026-03-02
 **Pipeline Stage**: 1 - Identified
 **District Type**: High-performing suburban K-8 (6,022 students) — ENRICHMENT positioning
 
@@ -65,13 +65,16 @@
 
 | # | Name | Title | Leverage Point |
 |---|------|-------|---------------|
-| 1 | Dr. Jerry Gargus, Ed.D. | Asst. Supt. of Ed Services | Primary curriculum buyer. USC Ed.D. Recently promoted. |
-| 2 | Dr. Kiva Spiratos, Ed.D. | Director of Ed Services | LCAP contact. Runs 26+ engagement meetings. Operational decision-maker. |
-| 3 | Dr. Katherine Stopp, Ed.D. | Superintendent | Pepperdine Ed Tech MA. Technology-forward leader. Final authority. |
-| 4 | Dennis Cole | Board President | OCDE Chief of Staff. 30+ years in education. Validates NSF-backed tools. |
-| 5 | Ashley Ramirez | Board Member | UCI Innovation & Entrepreneurship. Innovation-oriented, current parent. |
-| 6 | Parham Sadegh | Director of IT | Technology purchasing and deployment. Key for Chromebook integration. |
-| 7 | Dr. Patrick Ham | Principal, Masuda Middle | Title I school, Niche #137 in CA. Ideal pilot site leader. |
+| 1 | Dr. Jerry Gargus, Ed.D. | Asst. Supt. of Ed Services | Primary curriculum buyer. `gargusj@fvsd.us` confirmed. USC Ed.D. Recently promoted. |
+| 2 | Dr. Kiva Spiratos, Ed.D. | Director of Ed Services | LCAP contact (`spiratosk@fvsd.us` confirmed). Runs 26+ engagement meetings. Operational decision-maker. |
+| 3 | Dr. Katherine Stopp, Ed.D. | Superintendent | Pepperdine Ed Tech MA. Technology-forward leader. Final authority. Approach via Gargus or Joy Moyers. |
+| 4 | Parham Sadegh | Director of IT | Technology purchasing and deployment. `sadeghp@fvsd.us` (inferred). Loop in Wave 1 to prevent late-stage blockers. Key for Chromebook/Google Classroom integration. |
+| 5 | Dr. Patrick Ham, Ed.D. | Principal, Masuda Middle School | Title I school, Niche #137 in CA. 14+ years FVSD — former principal at Cox and Plavan too. `hamp@fvsd.us` (inferred). TOP pilot site. |
+| 6 | Jenny Salberg | Principal, Fulton Middle School | Second of three middle school pilot targets. `salbergj@fvsd.us` (inferred). Comprehensive enrichment site. |
+| 7 | Jay Adams | Principal, Talbert Middle School | Third middle school pilot target. `adamsj@fvsd.us` (inferred). Has a site TOSA (Brooke James) — unusual instructional investment signal. |
+| 8 | Dennis Cole | Board President | OCDE Chief of Staff. 30+ years in education. `denniscole@fvsd.us` (confirmed). Validates NSF-backed tools at county level. |
+| 9 | Ashley Ramirez | Board Member | UCI Innovation & Entrepreneurship. `ramirezashley@fvsd.us` (confirmed). Strongest STEM advocate on the board. Current parent. |
+| 10 | Steve Schultz | Board Clerk | Active teacher at FV High School. `steveschultz@fvsd.us` (confirmed). 2× Teacher of the Year. Feeder school bridge to HBUHSD. |
 
 ---
 
