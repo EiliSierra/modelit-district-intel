@@ -8,7 +8,7 @@ Strategy: Send to ALL contacts at once per district (no wave delays).
 Sender: charles@discoverycollective.com
 Signature: Dr. Marie Martin & Dr. Charles Martin
 
-Updated 2026-03-01
+Updated 2026-03-02 — Per-contact personalized pitch hooks
 """
 
 import argparse
@@ -73,7 +73,7 @@ def hubspot_request(method, endpoint, data=None):
 
 
 def parse_all_contacts(district_slug):
-    """Parse contacts.md to extract ALL contacts with name, title, and email."""
+    """Parse contacts.md to extract ALL contacts with name, title, email, pitch hook, and notes."""
     path = REPO_DIR / "districts" / district_slug / "contacts.md"
     if not path.exists():
         return []
@@ -98,12 +98,16 @@ def parse_all_contacts(district_slug):
         name = name_match.group(1).strip()
         title = name_match.group(2).strip() if name_match.group(2) else ""
 
-        # Parse table rows for email, title, phone
+        # Parse table rows for email, title, phone, pitch hook, notes, why tier
         email = None
         phone = ""
+        pitch_hook = ""
+        notes = ""
+        why_tier = ""
         for line in lines[1:]:
             line_stripped = line.strip()
-            row_match = re.match(r"\|\s*(\w[\w\s]*?)\s*\|\s*(.+?)\s*\|", line_stripped)
+            # Match table rows: "| Key | Value |" (standard tables)
+            row_match = re.match(r"\|\s*(.+?)\s*\|\s*(.+?)\s*\|", line_stripped)
             if row_match:
                 key = row_match.group(1).strip().lower()
                 val = row_match.group(2).strip()
@@ -115,6 +119,14 @@ def parse_all_contacts(district_slug):
                     title = val
                 elif key == "phone":
                     phone = val
+                elif key == "pitch hook":
+                    pitch_hook = val.strip('"').strip("'")
+                elif key == "notes":
+                    notes = val
+                elif key in ("why tier 1", "why tier 2", "why tier 3", "why tier 3b",
+                             "why tier 4", "why tier 4b", "why tier 4c", "why tier 4d",
+                             "why tier 5", "why tier"):
+                    why_tier = val
 
         if email:
             contacts.append({
@@ -122,6 +134,9 @@ def parse_all_contacts(district_slug):
                 "title": title,
                 "email": email,
                 "phone": phone,
+                "pitch_hook": pitch_hook,
+                "notes": notes,
+                "why_tier": why_tier,
             })
 
     return contacts
@@ -153,8 +168,13 @@ def shorten_district(name):
     return name
 
 
-def build_email_html(district_name, contact, hook=None):
-    """Build personalized HTML email using the finalized template.
+def build_email_html(district_name, contact, district_hook=None):
+    """Build personalized HTML email using per-contact pitch hooks.
+
+    Personalization priority:
+    1. Contact's own pitch_hook from contacts.md (most specific)
+    2. District-wide hook from entry-strategy.md (fallback)
+    3. Generic hook (last resort)
 
     Rules:
     - All pronouns: we/us (never I/me)
@@ -167,13 +187,31 @@ def build_email_html(district_name, contact, hook=None):
     first_name = contact["name"].split()[0] if contact.get("name") else "there"
     short_name = shorten_district(district_name)
 
-    if not hook:
+    # Per-contact personalization: use their specific pitch hook if available
+    contact_hook = contact.get("pitch_hook", "")
+
+    # Skip logistics-only contacts (e.g., "N/A - scheduling contact")
+    if contact_hook and "n/a" in contact_hook.lower():
+        contact_hook = ""
+
+    if contact_hook:
+        # Use the contact-specific hook, cleaned up for email tone
+        hook = contact_hook
+        # Strip any leading quotes
+        hook = hook.strip('"').strip("'").strip()
+    elif district_hook:
+        hook = district_hook
+    else:
         hook = (
             f"We came across {short_name}'s STEM initiatives and thought "
             f"our platform could be a great fit for your students. We think "
             f"we have the type of program that your students will certainly "
             f"be able to benefit from."
         )
+
+    # Ensure we/us pronouns throughout (never I/me)
+    hook = hook.replace(" I ", " we ").replace(" my ", " our ").replace(" me ", " us ")
+    hook = hook.replace('"', "").replace("'s ", "'s ")
 
     subject_encoded = urllib.parse.quote(f"Preview Account Request - {short_name}")
     body_encoded = urllib.parse.quote(
@@ -362,7 +400,7 @@ def process_district(district_name, slug, args):
     for i, contact in enumerate(contacts, 1):
         print(f"\n  [{i}/{len(contacts)}] {contact['name']} <{contact['email']}> - {contact.get('title', 'N/A')}")
 
-        html_body = build_email_html(district_name, contact, hook)
+        html_body = build_email_html(district_name, contact, district_hook=hook)
 
         if args.dry_run:
             print(f"    DRY RUN: Would send to {contact['email']}")
