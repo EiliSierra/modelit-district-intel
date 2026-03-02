@@ -1,6 +1,6 @@
 # Borrego Springs Unified School District - Entry Strategy
 
-**Last Updated**: 2026-02-10
+**Last Updated**: 2026-03-02
 **Pipeline Stage**: 1 - Identified
 **District Type**: Small remote K-12 desert district (345 students)
 
@@ -21,9 +21,20 @@
 
 | Field | Detail |
 |-------|--------|
-| **Name** | Science/STEM Teacher (TBD) |
-| **Title** | TBD - need to identify through Dr. Stevens |
-| **Why this person** | A teacher champion validates the tool from a classroom perspective. With only ~20 teachers total, Dr. Stevens will know exactly who to connect us with. |
+| **Name** | Victoria Baay |
+| **Title** | K-12 Principal (all 3 schools — Elementary, Middle, High) |
+| **Email** | vbaay@bsusd.net *(confirmed — CDE directory)* |
+| **Phone** | (760) 767-5335 |
+| **Why this person** | The only principal in the district. She oversees every classroom K-12. Any pilot goes through her for scheduling and teacher coordination. Meet her in the same visit as Stevens.  |
+
+## Tertiary Contact — Classroom Champion
+
+| Field | Detail |
+|-------|--------|
+| **Name** | Lydia Gordon |
+| **Title** | Science & Math Teacher, Borrego Springs High School |
+| **Email** | lgordon@bsusd.net *(inferred — pattern confirmed)* |
+| **Why this person** | Teaches BOTH science AND math at BSHS — the ideal ModelIt teacher. If she adopts the tool, it's embedded across both subjects simultaneously. Ask Baay or Stevens to connect you. |
 
 ---
 
@@ -53,11 +64,16 @@
 
 | # | Name | Title | Leverage Point |
 |---|------|-------|---------------|
-| 1 | Dr. Mark Stevens | Superintendent | Only decision maker. Math improvement is his stated #1 priority. |
-| 2 | Science/STEM Teacher (TBD) | Teacher | Classroom implementation champion. Identify through Stevens. |
-| 3 | Anza-Borrego Foundation staff | Partner org | If Foundation endorses ModelIt for Camp Borrego integration, Stevens listens. |
-| 4 | Board member (community connection) | Trustee | In a small town, board members are community leaders. Personal connection matters. |
-| 5 | SDCOE liaison (TBD) | County support | County office may be advising on math intervention strategies. |
+| 1 | Dr. Mark Stevens | Superintendent | Only instructional decision maker. Math improvement is his stated #1 priority. Email: mstevens@bsusd.net (confirmed). |
+| 2 | Victoria Baay | K-12 Principal (all 3 schools) | Implementation liaison for any pilot — she oversees every classroom in the district. Email: vbaay@bsusd.net (confirmed, CDE). |
+| 3 | Lydia Gordon | Science & Math Teacher, BSHS | **Primary classroom champion.** Teaches BOTH science AND math at BSHS — the exact cross-subject deployment ModelIt is designed for. Inferred email: lgordon@bsusd.net. |
+| 4 | Samantha Young | Education Director, Anza-Borrego Foundation | ABF runs Camp Borrego for every 5th grader. An ABF endorsement of ModelIt is more powerful than any cold pitch — Stevens will trust ABF's judgment. Email: samantha@theabf.org (confirmed). |
+| 5 | Martha Deichler | Board Secretary / Former Superintendent / Community Schools Liaison | **Highest-value board champion.** Former BSUSD superintendent and elementary principal — she can evaluate ModelIt as an instructional peer. Also organized the CTE Interpretation course (track record of curriculum innovation). Simultaneously serves as Community Schools Liaison. Phone: (619) 948-5900. |
+| 6 | Cathy Paredes | Community Schools Director | Manages community partnerships and wraparound services. Community Schools budget may be a funding pathway. Email: cparedes@bsusd.net (confirmed). |
+| 7 | Judy Coyle | Board Trustee / Former 24-Year BSUSD Teacher | Former classroom teacher who now serves on the board. Personal educator-to-educator appeal. Introduced Follett library tech to district — comfortable with ed-tech adoption. |
+| 8 | Dave Duncan | NAI Trainer / CTE Interpretation Course Lead | CTE curriculum innovator with district trust. Endorsement could open the ModelIt-CTE integration pathway for Interpretation and Agriculture students. |
+| 9 | Jessica Gillespie | Chief Business Official | Budget gatekeeper. Engage after Stevens approves — she identifies the right funding bucket (Title I, LCFF Supplemental). Inferred email: jgillespie@bsusd.net. |
+| 10 | SDCOE liaison (TBD) | County support | San Diego County Office of Education may be advising on math intervention strategies. A SDCOE referral would carry weight with Stevens. |
 
 ---
 
