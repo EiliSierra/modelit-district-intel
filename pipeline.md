@@ -1,6 +1,6 @@
 # ModelIt District Sales Pipeline
 
-**Last Updated**: 2026-03-02 (Wave 9: Calexico USD — Imperial Valley, CDE priority score 95/100, greenfield science curriculum, bilingual border community)
+**Last Updated**: 2026-03-02 (Wave 10: Arvin Union ESD — Kern County, CDE priority score 95/100, no confirmed science vendor, bilingual platform fit, Canvas+Clever ready)
 
 ---
 
@@ -42,6 +42,7 @@
 | Carlsbad USD | 1 - Identified | Ashley Crawford (acrawford@carlsbadusd.net) | Send intro email — NGSS SEP-2 + STEAM lab + EL science gap hook | Mar 2026 | $10-25K pilot → $50K+ scale | 55% White, 61.6% math (EL gap 19.2% science), Measure HH $265M STEAM labs, PLTW Distinguished, new Supt June 2025 |
 | Brawley Elementary SD | 1 - Identified | Victor Ramirez (vramirez@besd.org — verify) | Send intro email — 1.61% EL science + Padilla-Pace MS greenfield + bilingual platform | Mar 2026 | $5-10K pilot → $25-50K scale | 95% Hispanic, 39% EL, 12.93% science, 1.61% EL science, new Padilla-Pace MS (2024), NO science curriculum vendor, Supt = former Dir. Instructional Tech, CDE priority 95/100 |
 | Calexico USD | 1 - Identified | Korina Tabarez (ktabarez@cusdk12.org) | Send intro email — 12.87% CAST science + 60% Nearly Met + bilingual + Measure Q STEM buildings hook | Mar 2026 | $10-15K pilot → $75-120K scale | 99% Hispanic, 8.8% EL, 12.87% science, 60% Nearly Met at every grade, NO confirmed science vendor (greenfield), $47M Measure Q STEM buildings at CHS, bilingual platform fit, CDE priority 95/100 |
+| Arvin Union ESD | 1 - Identified | Kerrie Nisser (knisser@arvin-do.com) | Send intro email — 15.71% CAST + no confirmed science vendor + Canvas/Clever integration + bilingual + 59% Nearly Met hook | Mar 2026 | $12-25K pilot → $40-60K district-wide | 92.8% Hispanic, 15.5% EL, 15.71% CAST science, ~94% FRPM, NO confirmed science publisher (complete white space), Canvas+Clever already in place, bilingual Dual Immersion program, CDE priority 95/100 |
 
 ---
 
@@ -50,14 +51,14 @@
 | Stage | Count | Est. Total Value |
 |-------|-------|-----------------|
 | Research | 0 | - |
-| Identified | 17 | $223-1,120K |
+| Identified | 18 | $235-1,180K |
 | Contacted | 0 | - |
 | Engaged | 0 | - |
 | Demo | 0 | - |
 | Pilot Proposed | 0 | - |
 | Pilot Active | 0 | - |
 | Won | 0 | - |
-| **Total** | **17** | **$223K-1,120K** |
+| **Total** | **18** | **$235K-1,180K** |
 
 ---
 
