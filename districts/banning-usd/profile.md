@@ -1,4 +1,4 @@
-# Banning Unified School District - Full Intelligence Profile
+# Banning Unified School District
 
 **Last Updated**: 2026-02-12
 **Research Status**: Complete

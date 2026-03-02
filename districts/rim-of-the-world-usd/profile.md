@@ -1,4 +1,4 @@
-# Rim of the World Unified School District - Full Intelligence Profile
+# Rim of the World Unified School District
 
 **Last Updated**: 2026-02-10
 **Research Status**: Complete

@@ -62,7 +62,7 @@ $BASELINE"
     # Run Claude Code in non-interactive mode
     START_TIME=$(date +%s)
 
-    if claude -p "$PROMPT" \
+    if timeout 1200 claude -p "$PROMPT" \
         --allowedTools "Bash,Read,Write,Edit,Glob,Grep,WebSearch,WebFetch" \
          \
         --model sonnet \

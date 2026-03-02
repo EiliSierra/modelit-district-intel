@@ -1,4 +1,4 @@
-# La Habra City School District - Full Intelligence Profile
+# La Habra City School District
 
 **Last Updated**: 2026-02-11
 **Research Status**: Complete

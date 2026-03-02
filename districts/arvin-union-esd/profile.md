@@ -1,4 +1,4 @@
-# Arvin Union School District (Elementary) — Intelligence Profile
+# Arvin Union School District (Elementary)
 
 **Last Updated**: 2026-03-02
 **Status**: Research Complete (Phase 1)

@@ -1,4 +1,4 @@
-# Brawley Elementary School District — Intelligence Profile
+# Brawley Elementary School District
 
 **Last Updated**: 2026-03-02
 **Status**: Research Complete (Phase 1)

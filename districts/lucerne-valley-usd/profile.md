@@ -1,4 +1,4 @@
-# Lucerne Valley Unified School District - Full Intelligence Profile
+# Lucerne Valley Unified School District
 
 **Last Updated**: 2026-02-10
 **Research Status**: Complete

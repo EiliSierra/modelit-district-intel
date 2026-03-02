@@ -1,4 +1,4 @@
-# Beardsley Elementary School District — Intelligence Profile
+# Beardsley Elementary School District
 
 **Last Updated**: 2026-03-02
 **Status**: Research Complete (Phase 1)

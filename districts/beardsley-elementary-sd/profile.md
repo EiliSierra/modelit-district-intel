@@ -1,4 +1,4 @@
-# Beardsley Elementary School District — Full Intelligence Profile
+# Beardsley Elementary School District
 
 **Last Updated:** 2026-03-02 | **Analyst:** Claude Sonnet 4.6
 

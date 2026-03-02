@@ -1,4 +1,4 @@
-# Calexico Unified School District — Intelligence Profile
+# Calexico Unified School District
 
 **Last Updated**: 2026-03-02
 **Status**: Research Complete (Phase 1)

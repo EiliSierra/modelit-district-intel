@@ -1,4 +1,4 @@
-# Rialto Unified School District - Intelligence Profile
+# Rialto Unified School District
 
 **Last Updated**: 2026-02-09
 **Status**: Complete (Phase 1)

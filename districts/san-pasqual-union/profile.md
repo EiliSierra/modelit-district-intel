@@ -1,4 +1,4 @@
-# San Pasqual Union Elementary School District - Full Intelligence Profile
+# San Pasqual Union Elementary School District
 
 **Last Updated**: 2026-02-10
 **Research Status**: Complete

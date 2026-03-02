@@ -1,4 +1,4 @@
-# Romoland Elementary School District - Full Intelligence Profile
+# Romoland Elementary School District
 
 **Last Updated**: 2026-02-12
 **Research Status**: Complete

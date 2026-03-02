@@ -45,6 +45,12 @@ SCREENSHOT_RUN = f"{IMG_BASE}/modelit-run-it.png"
 MICROMAYHEM_VIDEO = "https://drive.google.com/file/d/1Xn6Ucu-tvC2wlttQhoCWHiyCqFxhiWnT/view?usp=drive_link"
 
 
+
+def clean_district_name(name):
+    """Strip internal suffixes like Intelligence Profile that should never appear in emails."""
+    name = re.sub(r"\s*[-\u2014\u2013]+\s*(?:Full\s+)?(?:District\s+)?Intelligence\s+Profile\s*$", "", name, flags=re.IGNORECASE)
+    return name.strip()
+
 def run_cmd(cmd, check=True):
     """Run a shell command and return output."""
     result = subprocess.run(cmd, shell=True, capture_output=True, text=True)
@@ -387,7 +393,7 @@ def process_district(district_name, slug, args):
 
     hook = parse_district_hook(slug)
     short_name = shorten_district(district_name)
-    subject = f"A quick look at computational modeling for {short_name} science"
+    subject = f"A quick look at computational modeling for {clean_district_name(short_name)} science"
 
     print(f"  Found {len(contacts)} contacts with emails")
     print(f"  Subject: {subject}")

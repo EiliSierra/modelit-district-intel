@@ -1,4 +1,4 @@
-# San Bernardino City USD - District Intelligence Profile
+# San Bernardino City USD
 
 **Last Updated**: 2026-02-16
 **Status**: Complete (some TBD items require manual browser verification)

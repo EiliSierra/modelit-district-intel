@@ -1,4 +1,4 @@
-# Perris Elementary School District - Full Intelligence Profile
+# Perris Elementary School District
 
 **Last Updated**: 2026-02-12
 **Research Status**: Complete

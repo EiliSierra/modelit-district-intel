@@ -1,4 +1,4 @@
-# Nuview Union School District - Full Intelligence Profile
+# Nuview Union School District
 
 **Last Updated**: 2026-02-11
 **Research Status**: Complete

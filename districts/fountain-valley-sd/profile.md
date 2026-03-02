@@ -1,4 +1,4 @@
-# Fountain Valley School District - Full Intelligence Profile
+# Fountain Valley School District
 
 **Last Updated**: 2026-02-11
 **Research Status**: Complete

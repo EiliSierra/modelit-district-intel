@@ -1,4 +1,4 @@
-# Carlsbad Unified School District — Full Intelligence Profile
+# Carlsbad Unified School District
 
 **Last Updated**: 2026-03-01
 **Status**: Complete
