@@ -1,6 +1,6 @@
 # Nuview Union School District - Entry Strategy
 
-**Last Updated**: 2026-02-11
+**Last Updated**: 2026-03-02
 **Pipeline Stage**: 1 - Identified
 **District Type**: Small rural K-8 elementary district (2,224 students)
 
@@ -12,19 +12,29 @@
 |-------|--------|
 | **Name** | Erica Williams |
 | **Title** | Director of Educational Services and ELOP |
-| **Email** | TBD [verify from staff directory portal] |
-| **Phone** | (951) 928-0066 x1714 |
+| **Email** | ewilliams@nuviewusd.org *(inferred — verify before sending)* |
+| **Phone** | (951) 928-0066 x1714 (via Yesica Gibson x1710) |
 | **Why this person** | Owns curriculum & assessment decisions for the K-8 district. Also manages the Expanded Learning Opportunity Program (additional funding pathway). She decides what instructional tools get adopted. |
 
-## Secondary Contact
+## Secondary Contact — School Level
+
+| Field | Detail |
+|-------|--------|
+| **Name** | Daryl Drinkwater |
+| **Title** | Principal, Mountain Shadows Middle School |
+| **Email** | ddrinkwater@nuviewusd.org *(confirmed — ZoomInfo)* |
+| **Phone** | (951) 928-3836 |
+| **Why this person** | Runs the STEM Lab campus. Only confirmed email in the district. Can authorize a school-level pilot without district-wide approval. Best parallel entry point to Erica Williams. |
+
+## Tertiary Contact — Executive
 
 | Field | Detail |
 |-------|--------|
 | **Name** | John Huber |
 | **Title** | Superintendent |
-| **Email** | TBD [verify from staff directory portal] |
-| **Phone** | (951) 928-0066 x1704 |
-| **Why this person** | Contract extended through 2028. Led the ENGIE/solar partnership that funded the STEM Lab — proves he values creative STEM investment. Final budget authority. |
+| **Email** | jhuber@nuviewusd.org *(inferred — verify)* |
+| **Phone** | (951) 928-0066 x1704 (via Yadira Rodriguez x1715) |
+| **Why this person** | Contract extended through 2028. Led the ENGIE/solar partnership that funded the STEM Lab — proves he values creative STEM investment. Final budget authority. Approach after Erica Williams engagement. |
 
 ---
 
@@ -54,10 +64,15 @@
 | # | Name | Title | Leverage Point |
 |---|------|-------|---------------|
 | 1 | Erica Williams | Dir. Educational Services & ELOP | Primary curriculum buyer + ELOP funding access |
-| 2 | John Huber | Superintendent | Values STEM investment (ENGIE precedent), budget authority |
-| 3 | Mountain Shadows Principal [TBD] | MS Principal | Oversees STEM Lab — natural ModelIt home |
-| 4 | Seth Heeren | Asst. Supt. Business Services | Budget authority, identifies funding lines |
-| 5 | Ken French | Board President | Board awareness for approvals |
+| 2 | Daryl Drinkwater | Principal, Mountain Shadows MS | STEM Lab site — confirmed email (ddrinkwater@nuviewusd.org); can authorize school-level pilot |
+| 3 | Cary Zinn | STEM Teacher, Mountain Shadows MS | Runs the STEM Lab daily — 120 students/day; primary implementer of ModelIt |
+| 4 | John Huber | Superintendent | Values STEM investment (ENGIE precedent), budget authority through 2028 |
+| 5 | Raymond Gallardo | Director of Technology | IT approval for Chromebook deployment; removes the platform compatibility blocker early |
+| 6 | Seth Heeren | Asst. Supt. Business Services | Budget authority, identifies LCFF Supplemental + Title I funding lines |
+| 7 | Gerardo Zavala | Principal, Nuview Bridge ECHS | Former math teacher (13 yrs); CTE + dual enrollment pathway; $600K workforce grant |
+| 8 | Daniel Clarke | NDTA President + Teacher of the Year | Most influential teacher in district; faculty buy-in through union leadership |
+| 9 | Ken French | Board President | Technology/STEM advocate (Information Systems background); board awareness for approvals |
+| 10 | Abel Chavez | Board Member | Biology B.S.; STEM advocate; career pathways emphasis |
 
 ---
 
@@ -77,21 +92,25 @@ In a small K-8 district:
 
 ## 5-Phase Approach
 
-### Phase 1: Introduction (Feb-Mar 2026)
+### Phase 1: Introduction (Mar 2026)
 
 | Action | Detail | Timeline |
 |--------|--------|----------|
-| Phone call to Erica Williams | Call x1714 — position ModelIt as NGSS supplement for pre-NGSS science gap | Feb 2026 |
-| Follow-up email | Send after phone call with one-pager | Feb 2026 |
-| Phone call to Superintendent | Call Huber x1704 — reference ENGIE/STEM Lab investment | Mar 2026 |
+| Phone call to Erica Williams | Call x1714 via Yesica Gibson (x1710) — NGSS supplement + bilingual + ELOP funding angle | Mar 2026 |
+| Email to Daryl Drinkwater | ddrinkwater@nuviewusd.org (confirmed) — STEM Lab + computational modeling angle; parallel entry point | Mar 2026 |
+| Email Raymond Gallardo | rgallardo@nuviewusd.org (est.) — confirm Chromebook/Google Classroom compatibility early | Mar 2026 |
+| Follow-up email to Williams | Send one-pager after phone call | Mar 2026 |
+| Phone call to Superintendent | Call Huber x1704 via Yadira Rodriguez (x1715) — reference ENGIE/STEM Lab investment + Williams interest | Mar-Apr 2026 |
 
-### Phase 2: Demo & Discovery (Mar-Apr 2026)
+### Phase 2: Demo & Discovery (Apr 2026)
 
 | Action | Detail | Timeline |
 |--------|--------|----------|
-| STEM Lab visit | Visit Mountain Shadows MS, see STEM Lab, meet principal | Mar-Apr 2026 |
-| Demo for Williams + Huber | Show agriculture + oceanography models (matching STEM Lab modules) | Same visit |
-| Bilingual demo | Show Spanish-language modeling for EL teachers | Same visit |
+| STEM Lab visit | Visit Mountain Shadows MS, meet Principal Drinkwater + STEM teacher Cary Zinn | Apr 2026 |
+| Demo for Williams + Huber | Show agriculture + oceanography models (matching STEM Lab modules) — Erica Williams + Huber | Apr 2026 |
+| Demo for Cary Zinn | Show STEM Lab-specific models to the teacher who will use them daily | Apr 2026 |
+| Bilingual demo | Show Spanish-language modeling for EL teachers (24% EL population) | Apr 2026 |
+| Meet Gerardo Zavala | NBECHS principal visit — math teacher background; CTE pathway angle | Apr 2026 |
 
 ### Phase 3: Pilot Proposal (Apr-May 2026)
 
