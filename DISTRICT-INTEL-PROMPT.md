@@ -362,5 +362,30 @@ git push
 
 ---
 
+
+---
+
+## Email Outreach Rules
+
+These rules govern ALL outreach emails sent by the modelit-daily-outreach.py script.
+
+### Strategy
+- **Send to ALL contacts at once** per district - no wave delays, no staggered timing
+- Parse every contact from contacts.md (all tiers) and email them simultaneously
+- One HubSpot deal per district, all contacts associated to it
+- Never include language like 'call to verify' or 'call first before emailing'
+
+### Template Rules
+1. **Pronouns**: Always 'we/us/our' - never 'I/me/my'
+2. **NGSS**: Mention only ONCE in the entire email
+3. **Image order**: Platform screenshots FIRST (Build it + Run it), then MicroMayhem game
+4. **MicroMayhem copy**: 'a game where students battle real biological threats using the same modeling skills they learn in class. Students love it because it feels like a video game. Teachers love it because every move reinforces real science.'
+5. **Signature**: Dr. Marie Martin and Dr. Charles Martin (Marie first)
+6. **Reply button**: mailto goes to charles@discoverycollective.com
+7. **Signature email**: Hyperlink text says 'Email' linking to mailto:charles@discoverycollective.com
+8. **Sender**: charles@discoverycollective.com via gogcli (dc client)
+9. **Platform images**: Use GitHub-hosted screenshots from _reference/email-assets/ (master branch)
+10. **Hook**: Personalized from entry-strategy.md - must reference specific district data
+
 ## END OF PROMPT
 
