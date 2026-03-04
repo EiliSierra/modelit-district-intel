@@ -1,6 +1,6 @@
 # ModelIt District Sales Pipeline
 
-**Last Updated**: 2026-03-03 (Added Perris Elementary SD + contact audit)
+**Last Updated**: 2026-03-04 (Added 5 new districts: Compton, Escondido UHSD, Oceanside, Vista, Sweetwater)
 
 ---
 
@@ -46,6 +46,11 @@
 | Beardsley Elementary SD | 1 - Identified | Tammy Barrera (tbarrera@beardsley.k12.ca.us) | Send intro email — 8.47% Gr7 math + PLTW complement + Clever deployed + free 6-week pilot offer | Mar 2026 | $12-20K pilot → $35-60K district-wide | 63.6% Hispanic, 13.29% math, 11.37% science, PLTW at BJHS (Mac Robertson = champion), Clever SSO deployed, NO confirmed K-8 science publisher (greenfield), CDE priority 95/100 |
 | Panama-Buena Vista Union | 1 - Identified | Dr. Valerie Park, Dir. ACT (vpark@pbvusd.k12.ca.us) | Send intro email — 43% math Gr3 drops to 22% Gr8 + 7.48% EL science CAST + no confirmed science vendor + Canvas/ClassLink/Synergy deployed | Mar 2026 | $20-40K pilot → $50-100K district-wide | 62.1% Hispanic, 30.2% math, 26.45% science, 14.5% EL, 19,366 students, 26 schools, NO confirmed science publisher (greenfield), Canvas+ClassLink+Synergy in place, CDE priority 95/100 |
 | Perris Elementary SD | 1 - Identified | Kelly Pebly (kpebly@perrisesd.org) | Visit Perris Elementary, meet Principal Pebly | Mar 2026 | $4-6K pilot → $7-12K scale | 100% minority, 83.7% ED, K-6 sweet spot, rural Riverside County, bilingual angle |
+| Compton USD | 1 - Identified | Jorge Torres, Ed.D. (TBD — verify email) | Verify contact email, send intro re: 14% science + CAO vacancy + STEM infrastructure | Mar 2026 | $30-50K pilot → $100-200K+ scale | 16.5K students, #1 CA test gains, 14% science (half state avg), CAO vacancy = entry point, NAF Academy, Apple/Boeing/Google partners, $544M revenue |
+| Escondido UHSD | 1 - Identified | Shannon Chamberlin (TBD — phone verified) | Phone call to Science Content Specialist | Mar 2026 | $8-15K pilot → $25-40K scale | 6.5K students, Gr 7-12, 20.68% math, Hispanic at 14.88% (27pt gap), dedicated Science Specialist, 5 schools = rapid adoption, 20 min from Carlsbad |
+| Oceanside USD | 1 - Identified | Richard Lawrence, Ed.D. (richard.lawrence@oside.us) | Send intro email — biomanufacturing angle + Camp Pendleton schools + ROI focus | Mar 2026 | $15-25K pilot → $50-80K scale | 15.3K students, unique biomanufacturing AS, 3 Camp Pendleton schools (Impact Aid), verified emails, 10 min from Carlsbad |
+| Vista USD | 1 - Identified | Dr. Matt Doyle (superintendentsoffice@vistausd.org) | Send intro email — Career Superhighway + Blueprint for Excellence + EL math crisis | Mar 2026 | $20-35K pilot → $75-120K scale | 18K students, innovation-forward supt, CSBA Golden Bell, STEM2Career Expo, EL math at 4.43%, all 5 board emails verified, 15 min from Carlsbad |
+| Sweetwater UHSD | 1 - Identified | Ana Maria Alvarez (Ana.Alvarez@sweetwaterschools.org) | Send intro email — STEAM dept + SDSU Compact + Hispanic math equity gap | Mar 2026 | $40-75K pilot → $150-300K+ scale | 34.4K students, 29 schools, $646M revenue, dedicated STEAM dept, SDSU Compact pipeline, Hispanic math 23.21% vs Asian 63.1% (40pt gap), verified email |
 
 ---
 
@@ -54,14 +59,14 @@
 | Stage | Count | Est. Total Value |
 |-------|-------|-----------------|
 | Research | 0 | - |
-| Identified | 21 | $301-1,312K |
+| Identified | 26 | $414-1,864K |
 | Contacted | 0 | - |
 | Engaged | 0 | - |
 | Demo | 0 | - |
 | Pilot Proposed | 0 | - |
 | Pilot Active | 0 | - |
 | Won | 0 | - |
-| **Total** | **21** | **$301K-1,312K** |
+| **Total** | **26** | **$414K-1,864K** |
 
 ---
 
@@ -83,9 +88,9 @@ When selecting new districts for analysis, prioritize:
 |----------|--------|-----------|-----|----------|
 | ~~San Bernardino City USD~~ | ~~San Bernardino~~ | ~~~48,000~~ | ~~COMPLETED - moved to Active Pipeline~~ | ~~Done~~ |
 | ~~Fontana USD~~ | ~~San Bernardino~~ | ~~~36,000~~ | ~~MOVED TO ACTIVE PIPELINE~~ | ~~Done~~ |
-| Compton USD | Los Angeles | ~20,000 | Alvarez previously worked here | Medium |
-| Escondido Union HSD | San Diego | ~8,000 | Local to Carlsbad, north SD County | Medium |
-| Oceanside USD | San Diego | ~18,000 | Local, Camp Pendleton connection | Medium |
-| Vista USD | San Diego | ~24,000 | Local, high Hispanic enrollment | Medium |
-| Sweetwater UHSD | San Diego | ~39,000 | Large, high Hispanic, South Bay | High |
+| ~~Compton USD~~ | ~~Los Angeles~~ | ~~20,000~~ | ~~MOVED TO ACTIVE PIPELINE~~ | ~~Done~~ |
+| ~~Escondido Union HSD~~ | ~~San Diego~~ | ~~8,000~~ | ~~MOVED TO ACTIVE PIPELINE~~ | ~~Done~~ |
+| ~~Oceanside USD~~ | ~~San Diego~~ | ~~18,000~~ | ~~MOVED TO ACTIVE PIPELINE~~ | ~~Done~~ |
+| ~~Vista USD~~ | ~~San Diego~~ | ~~24,000~~ | ~~MOVED TO ACTIVE PIPELINE~~ | ~~Done~~ |
+| ~~Sweetwater UHSD~~ | ~~San Diego~~ | ~~39,000~~ | ~~MOVED TO ACTIVE PIPELINE~~ | ~~Done~~ |
 | National School District | San Diego | ~6,000 | 90%+ Hispanic, National City | Medium |
