@@ -1,4 +1,4 @@
-# Compton Unified School District - Intelligence Profile
+# Compton Unified School District - District Profile
 
 **Last Updated**: 2026-03-03
 **Status**: Complete (Phase 1)

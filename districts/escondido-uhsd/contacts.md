@@ -1,7 +1,7 @@
 # Escondido UHSD - Key Contacts
 
 **Last Updated**: 2026-03-03
-**Email Pattern**: TBD (emails not listed in public directory; phone numbers available)
+**Email Pattern**: `[finitial][lastname]@euhsd.org` (97% of staff per RocketReach; e.g., schamberlin@euhsd.org)
 **Domain**: euhsd.org
 **Main Office**: (760) 291-3200 | 302 N. Midway Drive, Escondido, CA 92027
 **Total Contacts**: ~15
@@ -15,7 +15,7 @@
 |-------|-------|
 | Title | Content Area Specialist, Science |
 | Department | Educational Services |
-| Email | TBD (verify from district) |
+| Email | schamberlin@euhsd.org *(inferred from pattern — 97% match rate)* |
 | Phone | (760) 291-3021 |
 | Role in Decision | Science curriculum and instruction specialist; NGSS implementation |
 | STEM Champion? | **Yes** - dedicated science specialist for the district |
@@ -27,7 +27,7 @@
 |-------|-------|
 | Title | Content Area Specialist, College & CTE |
 | Department | Educational Services |
-| Email | TBD |
+| Email | vcarranco@euhsd.org *(inferred from pattern)* |
 | Phone | (760) 291-3002 |
 | Role in Decision | CTE pathway development and college readiness |
 | Notes | CTE pathways need computational modeling tools. Second entry point. |
@@ -42,7 +42,7 @@
 |-------|-------|
 | Title | Assistant Superintendent, Educational Services |
 | Department | Educational Services |
-| Email | TBD |
+| Email | mcasas@euhsd.org *(inferred from pattern)* |
 | Phone | (760) 291-3250 |
 | Role in Decision | Oversees all curriculum and instruction; Chamberlin's supervisor |
 | Notes | Gate-keeper for Educational Services. Must be aligned for any district adoption. |
@@ -53,7 +53,7 @@
 |-------|-------|
 | Title | Superintendent |
 | Department | Superintendent's Office |
-| Email | TBD |
+| Email | jpetersen@euhsd.org *(inferred from pattern)* |
 | Phone | (760) 291-3201 |
 | Start Date | July 1, 2023 |
 | Background | 30+ years education; former EUHSD board president; teacher, principal, CBO at Valley Center USD |

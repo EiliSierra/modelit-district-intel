@@ -1,4 +1,4 @@
-# Sweetwater Union High School District - Intelligence Profile
+# Sweetwater Union High School District - District Profile
 
 **Last Updated**: 2026-03-03
 **Status**: Complete (Phase 1)

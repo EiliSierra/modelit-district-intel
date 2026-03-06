@@ -1,4 +1,4 @@
-# Panama-Buena Vista Union School District — Intelligence Profile
+# Panama-Buena Vista Union School District — District Profile
 **Last Updated:** 2026-03-03 | **Analyst:** ModelIt K12 Research System
 
 ---

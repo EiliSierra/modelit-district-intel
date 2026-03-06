@@ -1,4 +1,4 @@
-# Vista Unified School District - Intelligence Profile
+# Vista Unified School District - District Profile
 
 **Last Updated**: 2026-03-03
 **Status**: Complete (Phase 1)

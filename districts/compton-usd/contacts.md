@@ -1,7 +1,7 @@
 # Compton USD - Key Contacts
 
 **Last Updated**: 2026-03-03
-**Email Pattern**: varies (first initial + last @ compton.k12.ca.us for board; TBD for staff)
+**Email Pattern**: `[first 2 initials][lastname]@compton.k12.ca.us` for staff (confirmed: jotorres@); board uses `[finitial][lastname]@compton.k12.ca.us`
 **Domain**: compton.k12.ca.us
 **Main Office**: (310) 639-4321 | 501 S. Santa Fe Ave, Compton, CA 90221
 **Total Contacts**: ~20
@@ -15,8 +15,8 @@
 |-------|-------|
 | Title | Senior Director, College & Career Ready |
 | Department | Educational Services |
-| Email | TBD (verify from district website) |
-| Phone | (310) 639-4321 (main) |
+| Email | jotorres@compton.k12.ca.us *(VERIFIED — district website)* |
+| Phone | (310) 639-4321 ext. 55224 |
 | Role in Decision | CTE pathway development, college/career readiness programs, STEM tool selection |
 | STEM Champion? | **Yes** - leads college & career readiness across K-12 |
 | Notes | **PRIMARY CONTACT** - oversees CTE and career readiness programs where ModelIt computational modeling fits. Start here. |
