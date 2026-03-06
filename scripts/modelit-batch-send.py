@@ -224,6 +224,7 @@ def main():
     parser.add_argument("--batch", type=int, default=150, help="Max emails to send")
     parser.add_argument("--delay", type=int, default=120, help="Seconds between emails")
     parser.add_argument("--dry-run", action="store_true", help="Print without sending")
+    parser.add_argument("--districts", nargs="+", help="Only send to these district slugs")
     args = parser.parse_args()
 
     sent_set = load_sent()
@@ -235,6 +236,8 @@ def main():
         if not district_dir.is_dir():
             continue
         slug = district_dir.name
+        if args.districts and slug not in args.districts:
+            continue
         contacts = parse_contacts(slug)
         profile = load_district_profile(slug)
         for c in contacts:
