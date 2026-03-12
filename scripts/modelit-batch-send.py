@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
 """
-ModelIt Batch Email Sender — 150/day with 2-minute spacing
+ModelIt Batch Email Sender — 30/day with 3-minute spacing
 Reads all contacts from researched districts, sends personalized emails
-via gogcli from charles@discoverycollective.com with --client dc.
+via gogcli from charles@discoverycollective.com with --client discovery.
 
-Usage: python3 modelit-batch-send.py [--batch 150] [--delay 120] [--dry-run]
+Usage: python modelit-batch-send.py [--batch 30] [--delay 180] [--dry-run] [--districts slug1,slug2]
 """
 
 import argparse
@@ -18,13 +18,14 @@ import time
 from datetime import datetime, timezone
 from pathlib import Path
 
-REPO_DIR = Path("/root/modelit-district-intel")
+REPO_DIR = Path(__file__).resolve().parent.parent
 DATA_FILE = REPO_DIR / "data" / "cde-districts.json"
 OUTREACH_LOG = REPO_DIR / "data" / "outreach-log.jsonl"
 SENT_TRACKER = REPO_DIR / "data" / "batch-sent.json"
 
 FROM_EMAIL = "charles@discoverycollective.com"
-GOG_CLIENT = "dc"
+GOG_CLIENT = "discovery"
+GOG_EXE = os.environ.get("GOG_PATH", "gog")
 
 IMG_BASE = "https://raw.githubusercontent.com/charlesmartinedd/modelit-district-intel/master/_reference/email-assets"
 SCREENSHOT_BUILD = f"{IMG_BASE}/modelit-build-it.png"
@@ -33,13 +34,13 @@ MICROMAYHEM_VIDEO = "https://youtu.be/9-t5l9MR95w"
 
 # Role-based subject line templates. {district} is replaced at send time.
 SUBJECT_TEMPLATES = {
-    "superintendent": "Free NGSS modeling platform — {district} science",
+    "superintendent": "NSF-funded modeling platform — {district} science goals",
     "curriculum": "NGSS computational modeling for {district} science classrooms",
-    "principal": "Free science modeling tool for your students — NGSS-aligned",
-    "teacher": "Free computational modeling platform for your science class",
+    "principal": "NGSS modeling platform for your science students — NSF-backed",
+    "teacher": "Computational modeling platform for your science class — NGSS-aligned",
     "tech": "Browser-based NGSS platform — Chromebook-ready, no install",
     "board": "NSF-funded science platform available for {district} students",
-    "budget": "Free NGSS science platform — no cost, no trial period",
+    "budget": "NSF-funded NGSS platform — flexible pilot pricing for {district}",
     "default": "NGSS computational modeling for {district} science classrooms",
 }
 
@@ -70,7 +71,15 @@ FAKE_EMAIL_PATTERNS = [
 # Generic mailboxes that rarely generate responses in cold outreach
 GENERIC_EMAIL_PREFIXES = [
     "boardoftrustees@", "communications@", "contact@", "info@",
-    "theofficeofthesuperintendent@", "front@",
+    "theofficeofthesuperintendent@", "front@", "askstudent@",
+    "superintendent@", "webmaster@", "noreply@",
+]
+
+# Personal email domains — skip these in professional outreach
+PERSONAL_EMAIL_DOMAINS = [
+    "gmail.com", "yahoo.com", "aol.com", "hotmail.com", "outlook.com",
+    "icloud.com", "me.com", "msn.com", "live.com", "comcast.net",
+    "sbcglobal.net", "att.net", "verizon.net",
 ]
 
 # Sections in contacts.md that contain example patterns, not real contacts
@@ -82,8 +91,9 @@ SKIP_SECTIONS = [
 
 
 def clean_district_name(name):
-    """Strip internal suffixes like Intelligence Profile that should never appear in emails."""
-    name = re.sub(r"\s*[-\u2014\u2013]+\s*(?:Full\s+)?(?:District\s+)?Intelligence\s+Profile\s*$", "", name, flags=re.IGNORECASE)
+    """Strip internal suffixes like Intelligence Profile, District Profile that should never appear in emails."""
+    name = re.sub(r"\s*[-\u2014\u2013]+\s*(?:Full\s+)?(?:District\s+)?(?:Intelligence\s+)?Profile\s*$", "", name, flags=re.IGNORECASE)
+    name = re.sub(r"\s*-\s*District Profile\s*$", "", name, flags=re.IGNORECASE)
     return name.strip()
 
 def load_sent():
@@ -302,6 +312,10 @@ def parse_contacts(district_slug):
             continue
         if is_generic_email(email):
             continue
+        # Skip personal email addresses
+        domain = email.split("@")[-1].lower()
+        if domain in PERSONAL_EMAIL_DOMAINS:
+            continue
         # Skip contacts with placeholder names
         name_lower = c.get("name", "").lower()
         if "tbd" in name_lower or "principal tbd" in name_lower or name_lower.startswith("["):
@@ -348,19 +362,27 @@ def get_subject(role, district_name):
 
 def get_greeting_name(full_name):
     """Extract the appropriate greeting name from a contact's full name.
-    'Dr. Maria Lopez' -> 'Dr. Lopez', 'Korina Tabarez' -> 'Korina'."""
+    'Dr. Maria Lopez' -> 'Dr. Lopez', 'Kim Lawe, Ed.D.' -> 'Dr. Lawe',
+    'Korina Tabarez' -> 'Korina'."""
     if not full_name:
         return ""
     # Remove brackets, quotes, bold markers
     name = re.sub(r"[\[\]*\"']", "", full_name).strip()
+    # Check for doctorate suffixes (Ed.D., Ph.D., M.D.) before removing them
+    has_doctorate = bool(re.search(r",?\s*(?:Ed\.?D\.?|Ph\.?D\.?|M\.?D\.?)\s*$", name, re.IGNORECASE))
+    # Remove degree suffixes to get clean name
+    name = re.sub(r",?\s*(?:Ed\.?D\.?|Ph\.?D\.?|M\.?D\.?)\s*$", "", name, flags=re.IGNORECASE).strip()
     parts = name.split()
     if not parts:
         return ""
-    # If name starts with Dr., use Dr. + last name
+    # If name starts with Dr. prefix, use Dr. + last name
     if parts[0] in ("Dr.", "Dr"):
         if len(parts) >= 2:
             return f"Dr. {parts[-1]}"
         return ""
+    # If name has doctorate suffix (Ed.D., Ph.D.), use Dr. + last name
+    if has_doctorate and len(parts) >= 2:
+        return f"Dr. {parts[-1]}"
     return parts[0]
 
 
@@ -368,12 +390,12 @@ def get_cta(role, district_name):
     """Get a role-appropriate call-to-action."""
     ctas = {
         "superintendent": f"Would a 15-minute overview be useful? We can walk through how ModelIt fits {district_name}'s science goals.",
-        "curriculum": f"Would you be open to a quick look? I can set up a free teacher preview account for {district_name} so you can see it firsthand.",
-        "principal": "Would you like me to set up a free preview for one of your science teachers? No commitment — just a chance to see if it fits.",
-        "teacher": "Want to try it? I can set up a free account for you in about 2 minutes — your students can start building models this week.",
+        "curriculum": f"Would you be open to a quick look? I can set up a teacher preview account for {district_name} so you can see it firsthand.",
+        "principal": "Would you like me to set up a preview for one of your science teachers? No commitment — just a chance to see if it fits.",
+        "teacher": "Want to try it? I can set up a preview account for you in about 2 minutes — your students can start building models this week.",
         "tech": "Want to take a quick look at the platform? It runs entirely in-browser (Chrome, Safari, Edge) — no installation, no plugins, no IT tickets.",
         "board": f"If helpful, we would be glad to share a brief overview of how ModelIt could support {district_name}'s NGSS science goals.",
-        "budget": f"ModelIt is completely free — no cost, no trial period, no strings. Happy to share more about how it fits {district_name}'s programs.",
+        "budget": f"We offer flexible pilot pricing that fits within LCAP and Title I/IV funding streams. Happy to share details on how it works for {district_name}.",
         "default": f"Would you be open to a 15-minute look at how this could support {district_name}'s science goals?",
     }
     return ctas.get(role, ctas["default"])
@@ -395,7 +417,7 @@ def build_email_html(contact, district_name, district_hook):
 
 <p>{hook} — and I wanted to share something that might be directly useful.</p>
 
-<p><strong>ModelIt! K-12</strong> is a free computational modeling platform for science classrooms. Students build, run, and analyze dynamic models of biological and environmental systems — aligned to NGSS performance expectations.</p>
+<p><strong>ModelIt! K-12</strong> is a computational modeling platform for science classrooms, developed with NSF SBIR funding. Students build, run, and analyze dynamic models of biological and environmental systems — aligned to NGSS performance expectations.</p>
 
 <table style="width: 100%; margin: 16px 0;">
 <tr>
@@ -412,10 +434,10 @@ def build_email_html(contact, district_name, district_hook):
 
 <p>What makes it different:</p>
 <ul style="padding-left: 20px;">
-<li><strong>Completely free</strong> — no cost, no trial period, no purchasing required</li>
+<li><strong>NSF SBIR Phase II funded</strong> — developed with University of Nebraska-Lincoln</li>
 <li><strong>Bilingual</strong> — full Spanish language support for EL students</li>
-<li><strong>NSF SBIR-funded</strong> — developed with University of Nebraska-Lincoln</li>
 <li><strong>Works on Chromebooks</strong> — browser-based, zero installation</li>
+<li><strong>Supplements existing curriculum</strong> — layers onto Amplify, FOSS, OpenSciEd, or whatever you've adopted</li>
 </ul>
 
 <p>See it in action: <a href="{MICROMAYHEM_VIDEO}" style="color: #2997FF;">MicroMayhem game-based activity (2 min)</a></p>
@@ -435,17 +457,15 @@ def build_email_html(contact, district_name, district_hook):
 
 
 def send_email(to_email, subject, html_body):
-    tmp_file = Path("/tmp/modelit-email.html")
-    tmp_file.write_text(html_body, encoding="utf-8")
-    cmd = (
-        f'gog gmail send --client {GOG_CLIENT} '
-        f'--account {FROM_EMAIL} '
-        f'--to "{to_email}" '
-        f'--subject "{subject}" '
-        f'--body-html "$(cat /tmp/modelit-email.html)"'
-    )
-    result = subprocess.run(cmd, shell=True, capture_output=True, text=True)
-    tmp_file.unlink(missing_ok=True)
+    cmd = [
+        GOG_EXE, "gmail", "send",
+        "--client", GOG_CLIENT,
+        "--account", FROM_EMAIL,
+        "--to", to_email,
+        "--subject", subject,
+        "--body-html", html_body,
+    ]
+    result = subprocess.run(cmd, capture_output=True, text=True)
     if result.returncode == 0:
         return True, result.stdout.strip()
     return False, result.stderr.strip()
@@ -469,13 +489,20 @@ def log_outreach(email, district, contact_name, status, message_id="", title="",
 
 def main():
     parser = argparse.ArgumentParser()
-    parser.add_argument("--batch", type=int, default=20, help="Max emails to send per run")
+    parser.add_argument("--batch", type=int, default=30, help="Max emails to send per run")
     parser.add_argument("--delay", type=int, default=180, help="Base seconds between emails (randomized +/- 30s)")
     parser.add_argument("--dry-run", action="store_true", help="Print without sending")
+    parser.add_argument("--districts", type=str, default="", help="Comma-separated district slugs to filter (e.g. rialto-usd,vista-usd)")
     args = parser.parse_args()
 
     sent_set = load_sent()
     print(f"Previously sent: {len(sent_set)} emails")
+
+    # Filter districts if --districts flag provided
+    district_filter = set()
+    if args.districts:
+        district_filter = {s.strip() for s in args.districts.split(",")}
+        print(f"Filtering to districts: {', '.join(sorted(district_filter))}")
 
     # Build queue: all contacts from all researched districts, skip already sent
     queue = []
@@ -483,6 +510,8 @@ def main():
         if not district_dir.is_dir():
             continue
         slug = district_dir.name
+        if district_filter and slug not in district_filter:
+            continue
         contacts = parse_contacts(slug)
         profile = load_district_profile(slug)
         for c in contacts:
