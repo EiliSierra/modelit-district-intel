@@ -1,6 +1,6 @@
 # ModelIt District Sales Pipeline
 
-**Last Updated**: 2026-03-11 (Moved 10 contacted districts to Stage 2; cleaned parser & email template)
+**Last Updated**: 2026-03-18 (Moved remaining 18 Identified districts to Contacted based on outreach-log.jsonl evidence — all emailed Mar 2-10)
 
 ---
 
@@ -25,8 +25,8 @@
 
 | District | Stage | Primary Contact | Next Action | Target Date | Est. Value | Notes |
 |----------|-------|----------------|-------------|-------------|-----------|-------|
-| Rialto USD | 1 - Identified | Juanita Chan-Roden (jchan@rialtousd.org) | Send intro email | Mar 2026 | $15K pilot → $100K+ scale | STEM CARES hook, math gap, visual/accessible design |
-| San Bernardino City USD | 1 - Identified | Dr. Randy Clyde (steam@sbcusd.k12.ca.us) | Send intro email | Feb 24, 2026 | $50K pilot → $250K+ scale | C-STEM Superintendent, dedicated STEAM Dept, Del Vallejo STEAM Academy pilot, greenfield for modeling tools |
+| Rialto USD | 2 - Contacted | Juanita Chan-Roden (jchan@rialtousd.org) | Follow up — 0 replies from 38 emails sent Mar 8 | Mar 2026 | $15K pilot → $100K+ scale | STEM CARES hook, math gap, visual/accessible design |
+| San Bernardino City USD | 2 - Contacted | Dr. Randy Clyde (steam@sbcusd.k12.ca.us) | Follow up — 0 replies from 55 emails sent Mar 9 | Mar 2026 | $50K pilot → $250K+ scale | C-STEM Superintendent, dedicated STEAM Dept, Del Vallejo STEAM Academy pilot, greenfield for modeling tools |
 | San Pasqual Union ESD | 1 - Identified | Mark Burroughs (mark.burroughs@sanpasqualunion.net) | Attend Saints Soirée, send intro email | Mar 2026 | $3-5K pilot | Zoo Safari Park hook, STEM teachers, closest to home |
 | Borrego Springs USD | 2 - Contacted | Dr. Mark Stevens (TBD) | Follow up — 0 replies from 24 emails sent Mar 2-3 | Mar 2026 | $5-10K district-wide | 15% math proficiency, 87% Hispanic, desert ecology hook |
 | Lucerne Valley USD | 1 - Identified | Aaron Jones (aaron_jones@lucernevalleyusd.org) | Email intro re: Dashboard recovery | Feb-Mar 2026 | $5-10K pilot → $15K scale | 10.69% math, red Dashboard, STEM Lab, CTE 80%+ participation |
