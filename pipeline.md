@@ -61,7 +61,7 @@
 |-------|-------|-----------------|
 | Research | 0 | - |
 | Identified | 0 | - |
-| Contacted | 27 | $419-1,889K |
+| Contacted | 27 | $419K-1,889K |
 | Engaged | 0 | - |
 | Demo | 0 | - |
 | Pilot Proposed | 0 | - |
