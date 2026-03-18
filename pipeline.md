@@ -35,22 +35,23 @@
 | Valley Center-Pauma USD | 2 - Contacted | Mark Hailwood (hailwood.ma@vcpusd.org) | Follow up — 0 replies from 20 emails sent Mar 10 | Mar 2026 | $10-15K pilot → $25K scale | 18% math, new supt w/ math priority, FFA, Dual Immersion, solar STEAM, tribal MOUs |
 | La Habra City SD | 2 - Contacted | Dr. Patricia Sandoval (TBD — use Contact Us form) | Follow up — 0 replies from 25 emails sent Mar 7 | Mar 2026 | $10-15K pilot → $25-40K scale | 86% Hispanic, 80% ED, $73M Measure O bond, STEAM Academies, PLTW, 11.78% EL math |
 | Fontana USD | 2 - Contacted | Dolly Bergen (dolly.bergen@fusd.net) | Follow up — 0 replies from 47 emails sent Mar 7 | Mar 2026 | $40-75K pilot → $150-300K+ scale | 33K students, 77% not meeting math, $408M Measure I, Bio Animakerspace, WRO robotics, warm connection Dr. Alvarez (Rialto USD Supt) |
-| Fountain Valley SD | 1 - Identified | Dr. Jerry Gargus (TBD email) | Email intro via district office | Mar 2026 | $10-15K pilot → $30-50K scale | High-performing (74% math), enrichment angle, NGSS, 8 Gold Ribbon Schools, equity gaps (Hispanic 57%, EL 43%), $112M revenue, Measure O $63M bond |
-| NuView Union SD | 1 - Identified | Erica Williams (TBD - verify email) | Email/phone intro re: STEM Lab + NGSS gap | Feb-Mar 2026 | $5-8K pilot → $8-15K scale | 85% Hispanic, 22% math, 18% science, pre-NGSS Harcourt curriculum, STEM Lab at Mountain Shadows, bilingual imperative |
-| Romoland ESD | 1 - Identified | Dr. Michelle Echiverri (echiverri@romoland.net) | Email/phone intro re: math gap + NGSS | Feb-Mar 2026 | $5-8K pilot → $8-15K scale | 72% Hispanic, 15% math, 92% ED, 30% EL, growing sub-urban district |
+| Fountain Valley SD | 2 - Contacted | Dr. Jerry Gargus (TBD email) | Follow up — 0 replies from 32 emails sent Mar 7 | Mar 2026 | $10-15K pilot → $30-50K scale | High-performing (74% math), enrichment angle, NGSS, 8 Gold Ribbon Schools, equity gaps (Hispanic 57%, EL 43%), $112M revenue, Measure O $63M bond |
+| NuView Union SD | 2 - Contacted | Erica Williams (TBD - verify email) | Follow up — 0 replies from 20 emails sent Mar 8 | Mar 2026 | $5-8K pilot → $8-15K scale | 85% Hispanic, 22% math, 18% science, pre-NGSS Harcourt curriculum, STEM Lab at Mountain Shadows, bilingual imperative |
+| Romoland ESD | 2 - Contacted | Dr. Michelle Echiverri (echiverri@romoland.net) | Follow up — 0 replies from 36 emails sent Mar 9 | Mar 2026 | $5-8K pilot → $8-15K scale | 72% Hispanic, 15% math, 92% ED, 30% EL, growing sub-urban district |
 | Banning USD | 2 - Contacted | [Ed Services Director TBD] (verify email) | Follow up — 0 replies from 30 emails sent Mar 2-3 | Mar 2026 | $15-25K pilot → $15-30K scale | 75% Hispanic, 15% math, outperformed county/state in growth, K-12 with CTE |
 | Carlsbad USD | 2 - Contacted | Ashley Crawford (acrawford@carlsbadusd.net) | Follow up — 0 replies from 29 emails sent Mar 3 | Mar 2026 | $10-25K pilot → $50K+ scale | 55% White, 61.6% math (EL gap 19.2% science), Measure HH $265M STEAM labs, PLTW Distinguished, new Supt June 2025 |
 | Brawley Elementary SD | 2 - Contacted | Victor Ramirez (vramirez@besd.org — verify) | Follow up — 0 replies from 17 emails sent Mar 2-3 | Mar 2026 | $5-10K pilot → $25-50K scale | 95% Hispanic, 39% EL, 12.93% science, 1.61% EL science, new Padilla-Pace MS (2024), NO science curriculum vendor, Supt = former Dir. Instructional Tech, CDE priority 95/100 |
 | Calexico USD | 2 - Contacted | Korina Tabarez (ktabarez@cusdk12.org) | Follow up — 0 replies from 42 emails sent Mar 2-3 | Mar 2026 | $10-15K pilot → $75-120K scale | 99% Hispanic, 8.8% EL, 12.87% science, 60% Nearly Met at every grade, NO confirmed science vendor (greenfield), $47M Measure Q STEM buildings at CHS, bilingual platform fit, CDE priority 95/100 |
 | Arvin Union ESD | 2 - Contacted | Kerrie Nisser (knisser@arvin-do.com) | Follow up — 0 replies from 26 emails sent Mar 2 | Mar 2026 | $12-25K pilot → $40-60K district-wide | 92.8% Hispanic, 15.5% EL, 15.71% CAST science, ~94% FRPM, NO confirmed science publisher (complete white space), Canvas+Clever already in place, bilingual Dual Immersion program, CDE priority 95/100 |
 | Beardsley Elementary SD | 2 - Contacted | Tammy Barrera (tbarrera@beardsley.k12.ca.us) | Follow up — 0 replies from 25 emails sent Mar 2-3 | Mar 2026 | $12-20K pilot → $35-60K district-wide | 63.6% Hispanic, 13.29% math, 11.37% science, PLTW at BJHS (Mac Robertson = champion), Clever SSO deployed, NO confirmed K-8 science publisher (greenfield), CDE priority 95/100 |
-| Panama-Buena Vista Union | 1 - Identified | Dr. Valerie Park, Dir. ACT (vpark@pbvusd.k12.ca.us) | Send intro email — 43% math Gr3 drops to 22% Gr8 + 7.48% EL science CAST + no confirmed science vendor + Canvas/ClassLink/Synergy deployed | Mar 2026 | $20-40K pilot → $50-100K district-wide | 62.1% Hispanic, 30.2% math, 26.45% science, 14.5% EL, 19,366 students, 26 schools, NO confirmed science publisher (greenfield), Canvas+ClassLink+Synergy in place, CDE priority 95/100 |
-| Perris Elementary SD | 1 - Identified | Kelly Pebly (kpebly@perrisesd.org) | Visit Perris Elementary, meet Principal Pebly | Mar 2026 | $4-6K pilot → $7-12K scale | 100% minority, 83.7% ED, K-6 sweet spot, rural Riverside County, bilingual angle |
-| Compton USD | 1 - Identified | Jorge Torres, Ed.D. (TBD — verify email) | Verify contact email, send intro re: 14% science + CAO vacancy + STEM infrastructure | Mar 2026 | $30-50K pilot → $100-200K+ scale | 16.5K students, #1 CA test gains, 14% science (half state avg), CAO vacancy = entry point, NAF Academy, Apple/Boeing/Google partners, $544M revenue |
-| Escondido UHSD | 1 - Identified | Shannon Chamberlin (TBD — phone verified) | Phone call to Science Content Specialist | Mar 2026 | $8-15K pilot → $25-40K scale | 6.5K students, Gr 7-12, 20.68% math, Hispanic at 14.88% (27pt gap), dedicated Science Specialist, 5 schools = rapid adoption, 20 min from Carlsbad |
-| Oceanside USD | 1 - Identified | Richard Lawrence, Ed.D. (richard.lawrence@oside.us) | Send intro email — biomanufacturing angle + Camp Pendleton schools + ROI focus | Mar 2026 | $15-25K pilot → $50-80K scale | 15.3K students, unique biomanufacturing AS, 3 Camp Pendleton schools (Impact Aid), verified emails, 10 min from Carlsbad |
-| Vista USD | 1 - Identified | Dr. Matt Doyle (superintendentsoffice@vistausd.org) | Send intro email — Career Superhighway + Blueprint for Excellence + EL math crisis | Mar 2026 | $20-35K pilot → $75-120K scale | 18K students, innovation-forward supt, CSBA Golden Bell, STEM2Career Expo, EL math at 4.43%, all 5 board emails verified, 15 min from Carlsbad |
-| Sweetwater UHSD | 1 - Identified | Ana Maria Alvarez (Ana.Alvarez@sweetwaterschools.org) | Send intro email — STEAM dept + SDSU Compact + Hispanic math equity gap | Mar 2026 | $40-75K pilot → $150-300K+ scale | 34.4K students, 29 schools, $646M revenue, dedicated STEAM dept, SDSU Compact pipeline, Hispanic math 23.21% vs Asian 63.1% (40pt gap), verified email |
+| Panama-Buena Vista Union | 2 - Contacted | Dr. Valerie Park, Dir. ACT (vpark@pbvusd.k12.ca.us) | Follow up — 0 replies from 36 emails sent Mar 8 | Mar 2026 | $20-40K pilot → $50-100K district-wide | 62.1% Hispanic, 30.2% math, 26.45% science, 14.5% EL, 19,366 students, 26 schools, NO confirmed science publisher (greenfield), Canvas+ClassLink+Synergy in place, CDE priority 95/100 |
+| Perris Elementary SD | 2 - Contacted | Kelly Pebly (kpebly@perrisesd.org) | Follow up — 0 replies from 24 emails sent Mar 8 | Mar 2026 | $4-6K pilot → $7-12K scale | 100% minority, 83.7% ED, K-6 sweet spot, rural Riverside County, bilingual angle |
+| Compton USD | 2 - Contacted | Jorge Torres, Ed.D. (jotorres@compton.k12.ca.us) | Follow up — 0 replies from 5 emails sent Mar 7 | Mar 2026 | $30-50K pilot → $100-200K+ scale | 16.5K students, #1 CA test gains, 14% science (half state avg), CAO vacancy = entry point, NAF Academy, Apple/Boeing/Google partners, $544M revenue |
+| Escondido UHSD | 2 - Contacted | Shannon Chamberlin (schamberlin@euhsd.org) | Follow up — 0 replies from 4 emails sent Mar 7 | Mar 2026 | $8-15K pilot → $25-40K scale | 6.5K students, Gr 7-12, 20.68% math, Hispanic at 14.88% (27pt gap), dedicated Science Specialist, 5 schools = rapid adoption, 20 min from Carlsbad |
+| Oceanside USD | 2 - Contacted | Richard Lawrence, Ed.D. (richard.lawrence@oside.us) | Follow up — 0 replies from 8 emails sent Mar 8 | Mar 2026 | $15-25K pilot → $50-80K scale | 15.3K students, unique biomanufacturing AS, 3 Camp Pendleton schools (Impact Aid), verified emails, 10 min from Carlsbad |
+| Vista USD | 2 - Contacted | Dr. Matt Doyle (superintendentsoffice@vistausd.org) | Follow up — 0 replies from 7 emails sent Mar 10 | Mar 2026 | $20-35K pilot → $75-120K scale | 18K students, innovation-forward supt, CSBA Golden Bell, STEM2Career Expo, EL math at 4.43%, all 5 board emails verified, 15 min from Carlsbad |
+| Sweetwater UHSD | 2 - Contacted | Ana Maria Alvarez (Ana.Alvarez@sweetwaterschools.org) | Follow up — 0 replies from 5 emails sent Mar 10 | Mar 2026 | $40-75K pilot → $150-300K+ scale | 34.4K students, 29 schools, $646M revenue, dedicated STEAM dept, SDSU Compact pipeline, Hispanic math 23.21% vs Asian 63.1% (40pt gap), verified email |
+| Fairfax ESD | 2 - Contacted | Evelina Marquez (emarquez@fairfaxsd.us) | Follow up — 0 replies from 22 emails sent Mar 7 | Mar 2026 | $5-10K pilot → $15-25K scale | Kern County, Bakersfield, 2,874 students K-8, 91.2% Hispanic, 19.7% math, 10.7% science, CDE priority 95/100, profile at districts/fairfax-esd/ |
 
 ---
 
@@ -59,14 +60,14 @@
 | Stage | Count | Est. Total Value |
 |-------|-------|-----------------|
 | Research | 0 | - |
-| Identified | 16 | $261-1,282K |
-| Contacted | 10 | $153-582K |
+| Identified | 0 | - |
+| Contacted | 27 | $419-1,889K |
 | Engaged | 0 | - |
 | Demo | 0 | - |
 | Pilot Proposed | 0 | - |
 | Pilot Active | 0 | - |
 | Won | 0 | - |
-| **Total** | **26** | **$414K-1,864K** |
+| **Total** | **27** | **$419K-1,889K** |
 
 ---
 
