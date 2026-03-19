@@ -2,23 +2,31 @@
 """
 ModelIt Daily Outreach — Email + HubSpot Sync
 Reads district contacts.md, sends personalized outreach emails to ALL contacts
-via gogcli, creates HubSpot contacts/deals, and logs email in HubSpot.
+via Gmail SMTP, creates HubSpot contacts/deals, and logs email in HubSpot.
 
 Strategy: Send to ALL contacts at once per district (no wave delays).
-Sender: charles@discoverycollective.com
+Sender: drcharlesmartinedd1@gmail.com
 Signature: Dr. Marie Martin & Dr. Charles Martin
 
-Updated 2026-03-02 — Per-contact personalized pitch hooks
+Wave 2 Migration (Mar 18 2026):
+- Switched from gogcli + charles@discoverycollective.com to Gmail SMTP
+- Reason: 300+ Wave 1 emails with 0 responses. discoverycollective.com had no
+  SPF/DKIM/DMARC configured, so emails were likely going to spam.
+
+Updated 2026-03-18 — Gmail SMTP migration + Wave 2 template refresh
 """
 
 import argparse
 import json
 import os
 import re
+import smtplib
 import subprocess
 import sys
 import urllib.parse
 from datetime import datetime, timezone
+from email.mime.text import MIMEText
+from email.mime.multipart import MIMEMultipart
 from pathlib import Path
 
 REPO_DIR = Path(__file__).resolve().parent.parent
@@ -34,9 +42,9 @@ HUBSPOT_API = "https://api.hubapi.com"
 # Telegram group for notifications (ModelIt LCAP Agent)
 TELEGRAM_GROUP = os.environ.get("TELEGRAM_GROUP", "-5188258108")
 
-# Email sender
-FROM_EMAIL = "charles@discoverycollective.com"
-GOG_CLIENT = "dc"
+# Wave 2: Gmail SMTP (migrated from gogcli + discoverycollective.com)
+FROM_EMAIL = os.environ.get("GMAIL_DISTRICTS", "drcharlesmartinedd1@gmail.com")
+GMAIL_APP_PASSWORD = os.environ.get("GMAIL_DISTRICTS_APP_PASSWORD", "")
 
 # Email assets (hosted on GitHub - must use master branch)
 IMG_BASE = "https://raw.githubusercontent.com/charlesmartinedd/modelit-district-intel/master/_reference/email-assets"
@@ -252,33 +260,32 @@ def build_email_html(district_name, contact, district_hook=None):
 <br/><p style="margin: 0;">Kind regards,</p><br/>
 
 <p style="margin: 0;"><b>Dr. Marie Martin &amp; Dr. Charles Martin</b></p>
-<p style="margin: 0;">Discovery Collective / <a href="https://modelitk12.com/#/" style="color: #2997FF;">ModelIt</a></p>
-<p style="margin: 0;"><a href="mailto:{FROM_EMAIL}" style="color: #2997FF;">Email</a> &middot; <a href="https://modelitk12.com/#/" style="color: #2997FF;">modelitk12.com</a></p>
-<p style="margin: 0; font-size: 12px; color: #888;">NSF SBIR Phase II Funded | NGSS-Aligned | K-12 Computational Modeling</p>
+<p style="margin: 0; color: #666;">Discovery Collective | ModelIt! K-12</p>
+<p style="margin: 0;"><a href="mailto:{FROM_EMAIL}" style="color: #2997FF;">{FROM_EMAIL}</a> &middot; <a href="https://modelitk12.com/#/" style="color: #2997FF;">modelitk12.com</a></p>
+<p style="margin: 0; font-size: 12px; color: #888;">NSF SBIR Phase II | NGSS-Aligned | K-12 Computational Modeling</p>
 </body></html>"""
     return html
 
 
-def send_email(to_email, subject, html_body):
-    """Send email via gogcli with inline HTML."""
-    tmp_file = Path("/tmp/modelit-email.html")
-    tmp_file.write_text(html_body, encoding="utf-8")
+def send_email(to_email, subject, html_body, smtp_server=None):
+    """Send email via Gmail SMTP. Accepts an optional persistent connection."""
+    msg = MIMEMultipart("alternative")
+    msg["From"] = f'"Dr. Charles Martin" <{FROM_EMAIL}>'
+    msg["To"] = to_email
+    msg["Subject"] = subject
+    msg.attach(MIMEText("This email requires an HTML-capable email client.", "plain"))
+    msg.attach(MIMEText(html_body, "html"))
 
-    cmd = (
-        f"gog gmail send --client {GOG_CLIENT} "
-        f'--account {FROM_EMAIL} '
-        f'--to "{to_email}" '
-        f'--subject "{subject}" '
-        f'--body-html "$(cat /tmp/modelit-email.html)"'
-    )
-
-    result = run_cmd(cmd, check=False)
-    tmp_file.unlink(missing_ok=True)
-
-    if result.returncode == 0:
-        return True, result.stdout.strip()
-    else:
-        return False, result.stderr.strip()
+    try:
+        if smtp_server:
+            smtp_server.sendmail(FROM_EMAIL, to_email, msg.as_string())
+        else:
+            with smtplib.SMTP_SSL("smtp.gmail.com", 465) as server:
+                server.login(FROM_EMAIL, GMAIL_APP_PASSWORD)
+                server.sendmail(FROM_EMAIL, to_email, msg.as_string())
+        return True, "Sent via Gmail SMTP"
+    except Exception as e:
+        return False, str(e)
 
 
 def create_hubspot_contact(contact, district_name):

@@ -2,7 +2,13 @@
 """
 ModelIt Batch Email Sender — 30/day with 3-minute spacing
 Reads all contacts from researched districts, sends personalized emails
-via gogcli from charles@discoverycollective.com with --client discovery.
+via Gmail SMTP from drcharlesmartinedd1@gmail.com.
+
+Wave 2 Migration (Mar 18 2026):
+- Switched from gogcli + charles@discoverycollective.com to Gmail SMTP
+- Reason: 300+ Wave 1 emails with 0 responses. discoverycollective.com had no
+  SPF/DKIM/DMARC configured, so emails were likely going to spam.
+- Gmail SMTP with App Password provides better deliverability.
 
 Usage: python modelit-batch-send.py [--batch 30] [--delay 180] [--dry-run] [--districts slug1,slug2]
 """
@@ -12,10 +18,12 @@ import json
 import os
 import random
 import re
-import subprocess
+import smtplib
 import sys
 import time
 from datetime import datetime, timezone
+from email.mime.text import MIMEText
+from email.mime.multipart import MIMEMultipart
 from pathlib import Path
 
 REPO_DIR = Path(__file__).resolve().parent.parent
@@ -23,9 +31,9 @@ DATA_FILE = REPO_DIR / "data" / "cde-districts.json"
 OUTREACH_LOG = REPO_DIR / "data" / "outreach-log.jsonl"
 SENT_TRACKER = REPO_DIR / "data" / "batch-sent.json"
 
-FROM_EMAIL = "charles@discoverycollective.com"
-GOG_CLIENT = "discovery"
-GOG_EXE = os.environ.get("GOG_PATH", "gog")
+# Wave 2: Gmail SMTP (migrated from gogcli + discoverycollective.com)
+FROM_EMAIL = os.environ.get("GMAIL_DISTRICTS", "drcharlesmartinedd1@gmail.com")
+GMAIL_APP_PASSWORD = os.environ.get("GMAIL_DISTRICTS_APP_PASSWORD", "")
 
 IMG_BASE = "https://raw.githubusercontent.com/charlesmartinedd/modelit-district-intel/master/_reference/email-assets"
 SCREENSHOT_BUILD = f"{IMG_BASE}/modelit-build-it.png"
@@ -415,9 +423,9 @@ def build_email_html(contact, district_name, district_hook):
     html = f"""<html><body style="font-family: Arial, sans-serif; color: #333; max-width: 600px; margin: 0 auto;">
 <p>{greeting}</p>
 
-<p>{hook} — and I wanted to share something that might be directly useful.</p>
+<p>{hook} — and I wanted to share something that might be worth a look.</p>
 
-<p><strong>ModelIt! K-12</strong> is a computational modeling platform for science classrooms, developed with NSF SBIR funding. Students build, run, and analyze dynamic models of biological and environmental systems — aligned to NGSS performance expectations.</p>
+<p><strong>ModelIt! K-12</strong> is an NSF SBIR-funded computational modeling platform where students build, run, and analyze dynamic models of biological and environmental systems — directly aligned to NGSS performance expectations.</p>
 
 <table style="width: 100%; margin: 16px 0;">
 <tr>
@@ -432,23 +440,23 @@ def build_email_html(contact, district_name, district_hook):
 </tr>
 </table>
 
-<p>What makes it different:</p>
+<p>A few things that set it apart:</p>
 <ul style="padding-left: 20px;">
 <li><strong>NSF SBIR Phase II funded</strong> — developed with University of Nebraska-Lincoln</li>
 <li><strong>Bilingual</strong> — full Spanish language support for EL students</li>
-<li><strong>Works on Chromebooks</strong> — browser-based, zero installation</li>
-<li><strong>Supplements existing curriculum</strong> — layers onto Amplify, FOSS, OpenSciEd, or whatever you've adopted</li>
+<li><strong>Runs on Chromebooks</strong> — browser-based, nothing to install</li>
+<li><strong>Layers onto your current curriculum</strong> — works alongside Amplify, FOSS, OpenSciEd, or whatever you've adopted</li>
 </ul>
 
-<p>See it in action: <a href="{MICROMAYHEM_VIDEO}" style="color: #2997FF;">MicroMayhem game-based activity (2 min)</a></p>
+<p>Here's a quick look: <a href="{MICROMAYHEM_VIDEO}" style="color: #2997FF;">MicroMayhem — game-based modeling activity (2 min)</a></p>
 
-<p>You can explore the full platform at <a href="https://modelitk12.com/#/" style="color: #2997FF;">modelitk12.com</a>.</p>
+<p>You can also explore the platform at <a href="https://modelitk12.com/#/" style="color: #2997FF;">modelitk12.com</a>.</p>
 
 <p>{cta}</p>
 
 <p>Best,</p>
 
-<p style="margin: 0;"><strong>Dr. Marie Martin & Dr. Charles Martin</strong></p>
+<p style="margin: 0;"><strong>Dr. Marie Martin &amp; Dr. Charles Martin</strong></p>
 <p style="margin: 0; color: #666;">Discovery Collective | ModelIt! K-12</p>
 <p style="margin: 0;"><a href="mailto:{FROM_EMAIL}" style="color: #2997FF;">{FROM_EMAIL}</a> &middot; <a href="https://modelitk12.com/#/" style="color: #2997FF;">modelitk12.com</a></p>
 <p style="margin: 0; font-size: 12px; color: #888;">NSF SBIR Phase II | NGSS-Aligned | K-12 Computational Modeling</p>
@@ -456,19 +464,25 @@ def build_email_html(contact, district_name, district_hook):
     return html
 
 
-def send_email(to_email, subject, html_body):
-    cmd = [
-        GOG_EXE, "gmail", "send",
-        "--client", GOG_CLIENT,
-        "--account", FROM_EMAIL,
-        "--to", to_email,
-        "--subject", subject,
-        "--body-html", html_body,
-    ]
-    result = subprocess.run(cmd, capture_output=True, text=True)
-    if result.returncode == 0:
-        return True, result.stdout.strip()
-    return False, result.stderr.strip()
+def send_email(to_email, subject, html_body, smtp_server=None):
+    """Send email via Gmail SMTP. Accepts an optional persistent connection."""
+    msg = MIMEMultipart("alternative")
+    msg["From"] = f'"Dr. Charles Martin" <{FROM_EMAIL}>'
+    msg["To"] = to_email
+    msg["Subject"] = subject
+    msg.attach(MIMEText("This email requires an HTML-capable email client.", "plain"))
+    msg.attach(MIMEText(html_body, "html"))
+
+    try:
+        if smtp_server:
+            smtp_server.sendmail(FROM_EMAIL, to_email, msg.as_string())
+        else:
+            with smtplib.SMTP_SSL("smtp.gmail.com", 465) as server:
+                server.login(FROM_EMAIL, GMAIL_APP_PASSWORD)
+                server.sendmail(FROM_EMAIL, to_email, msg.as_string())
+        return True, "Sent via Gmail SMTP"
+    except Exception as e:
+        return False, str(e)
 
 
 def log_outreach(email, district, contact_name, status, message_id="", title="", role=""):
@@ -529,6 +543,17 @@ def main():
     sent_count = 0
     fail_count = 0
 
+    # Use persistent SMTP connection to avoid Gmail throttling
+    smtp_server = None
+    if not args.dry_run:
+        if not GMAIL_APP_PASSWORD:
+            print("ERROR: GMAIL_DISTRICTS_APP_PASSWORD env var not set")
+            sys.exit(1)
+        print(f"Connecting to Gmail SMTP as {FROM_EMAIL}...")
+        smtp_server = smtplib.SMTP_SSL("smtp.gmail.com", 465)
+        smtp_server.login(FROM_EMAIL, GMAIL_APP_PASSWORD)
+        print("Connected.\n")
+
     for i, item in enumerate(batch):
         contact = item["contact"]
         email = contact["email"]
@@ -546,17 +571,13 @@ def main():
             print("DRY RUN - skipped")
             continue
 
-        success, result = send_email(email, subject, html)
+        success, result = send_email(email, subject, html, smtp_server=smtp_server)
         if success:
-            msg_id = ""
-            for line in result.split("\n"):
-                if "message_id" in line:
-                    msg_id = line.split("\t")[-1].strip()
             sent_set.add(email.lower())
-            log_outreach(email, slug, contact.get("name", ""), "sent", msg_id,
+            log_outreach(email, slug, contact.get("name", ""), "sent",
                          title=contact.get("title", ""), role=role)
             sent_count += 1
-            print(f"SENT ({msg_id[:12]}...)")
+            print("SENT")
         else:
             log_outreach(email, slug, contact.get("name", ""), "failed",
                          title=contact.get("title", ""), role=role)
@@ -572,6 +593,9 @@ def main():
             actual_delay = max(60, args.delay + jitter)  # Never less than 60s
             print(f"    Waiting {actual_delay}s...", flush=True)
             time.sleep(actual_delay)
+
+    if smtp_server:
+        smtp_server.quit()
 
     print()
     print(f"=== Batch complete: {sent_count} sent, {fail_count} failed, {len(queue) - len(batch)} remaining ===")
