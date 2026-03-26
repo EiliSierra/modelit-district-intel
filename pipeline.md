@@ -1,6 +1,6 @@
 # ModelIt District Sales Pipeline
 
-**Last Updated**: 2026-03-18 (Moved remaining 18 Identified districts to Contacted based on outreach-log.jsonl evidence — all emailed Mar 2-10)
+**Last Updated**: 2026-03-26 (Wave 3: Val Verde USD 23 contacts sent, Rialto USD corrected + 3 new sends)
 
 ---
 
@@ -25,7 +25,8 @@
 
 | District | Stage | Primary Contact | Next Action | Target Date | Est. Value | Notes |
 |----------|-------|----------------|-------------|-------------|-----------|-------|
-| Rialto USD | 2 - Contacted | Juanita Chan-Roden (jchan@rialtousd.org) | Follow up — 0 replies from 38 emails sent Mar 8 | Mar 2026 | $15K pilot → $100K+ scale | STEM CARES hook, math gap, visual/accessible design |
+| Val Verde USD | 2 - Contacted | Heather Ubrun (hubrun@valverde.edu) | Monitor replies — 23 emails sent Mar 26 (Wave 3) | Apr 2026 | $15-25K pilot → $50K+ scale | Instructional coaching investment, STEAM facilitation, 4 personalized openings, verified contacts |
+| Rialto USD | 2 - Contacted | Juanita Chan-Roden (jchan@rialtousd.org) | Follow up — 1 reply (Goodly) from 34 emails (Wave 2+3) | Mar 2026 | $15K pilot → $100K+ scale | STEM CARES hook, math gap, Supt email corrected Mar 26, Deputy Supt Gibbs added |
 | San Bernardino City USD | 2 - Contacted | Dr. Randy Clyde (steam@sbcusd.k12.ca.us) | Follow up — 0 replies from 55 emails sent Mar 9 | Mar 2026 | $50K pilot → $250K+ scale | C-STEM Superintendent, dedicated STEAM Dept, Del Vallejo STEAM Academy pilot, greenfield for modeling tools |
 | San Pasqual Union ESD | 2 - Contacted | Mark Burroughs (mark.burroughs@sanpasqualunion.net) | Follow up — 0 replies from 28 emails sent Mar 9 | Mar 2026 | $3-5K pilot | Zoo Safari Park hook, STEM teachers, closest to home |
 | Borrego Springs USD | 2 - Contacted | Dr. Mark Stevens (TBD) | Follow up — 0 replies from 24 emails sent Mar 2-3 | Mar 2026 | $5-10K district-wide | 15% math proficiency, 87% Hispanic, desert ecology hook |
@@ -61,13 +62,13 @@
 |-------|-------|-----------------|
 | Research | 0 | - |
 | Identified | 0 | - |
-| Contacted | 27 | $419K-1,889K |
+| Contacted | 28 | $434K-1,914K |
 | Engaged | 0 | - |
 | Demo | 0 | - |
 | Pilot Proposed | 0 | - |
 | Pilot Active | 0 | - |
 | Won | 0 | - |
-| **Total** | **27** | **$419K-1,889K** |
+| **Total** | **28** | **$434K-1,914K** |
 
 ---
 
