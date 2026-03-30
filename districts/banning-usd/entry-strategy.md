@@ -22,7 +22,7 @@
 |-------|--------|
 | **Name** | Dr. Tonia Causey-Bush |
 | **Title** | Assistant Superintendent, Educational Services |
-| **Email** | tcausey-bush@banning.k12.ca.us *(inferred — verify)* |
+| **Email** | tcauseybush@banning.k12.ca.us *(inferred — verify)* |
 | **Phone** | (951) 922-0200 |
 | **Why this person** | Executive approver for all curriculum and instruction decisions. Engage after Cole-Fijabi shows interest. |
 
@@ -87,7 +87,7 @@ In a K-12 district:
 | Email to Marcia Cole-Fijabi | mcolefijabi@banning.k12.ca.us (est.) — position ModelIt as NGSS computational modeling, math reasoning | Mar 2026 |
 | Parallel email to Steve Barriga | sbarriga@banning.k12.ca.us (est.) — Chromebook + Google Workspace fit, NGSS alignment | Mar 2026 |
 | Follow-up call | (951) 922-0200 → ask for Instructional Services; discuss pilot opportunity | Mar-Apr 2026 |
-| Email Dr. Causey-Bush | tcausey-bush@banning.k12.ca.us (est.) — after Cole-Fijabi engagement | Apr 2026 |
+| Email Dr. Causey-Bush | tcauseybush@banning.k12.ca.us (est.) — after Cole-Fijabi engagement | Apr 2026 |
 
 ### Phase 2: Demo & Discovery (Mar-Apr 2026)
 

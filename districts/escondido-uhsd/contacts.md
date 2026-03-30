@@ -1,7 +1,7 @@
 # Escondido UHSD - Key Contacts
 
 **Last Updated**: 2026-03-03
-**Email Pattern**: `[finitial][lastname]@euhsd.org` (97% of staff per RocketReach; e.g., schamberlin@euhsd.org)
+**Email Pattern**: `[finitial][lastname]@euhsd.org` (97% of staff per RocketReach; e.g., schamberlain@euhsd.org)
 **Domain**: euhsd.org
 **Main Office**: (760) 291-3200 | 302 N. Midway Drive, Escondido, CA 92027
 **Total Contacts**: ~15
@@ -10,12 +10,12 @@
 
 ## Tier 1: Primary Entry Points
 
-### Shannon Chamberlin
+### Shannon Chamberlain
 | Field | Value |
 |-------|-------|
-| Title | Content Area Specialist, Science |
+| Title | Science Curriculum and Professional Learning Specialist, Ed.D. |
 | Department | Educational Services |
-| Email | schamberlin@euhsd.org *(inferred from pattern — 97% match rate)* |
+| Email | schamberlain@euhsd.org *(verified — confirmed from official Science in Escondido site)* |
 | Phone | (760) 291-3021 |
 | Role in Decision | Science curriculum and instruction specialist; NGSS implementation |
 | STEM Champion? | **Yes** - dedicated science specialist for the district |
@@ -173,7 +173,7 @@
 
 ## Outreach Priority Order
 
-1. **Shannon Chamberlin** (Science Content Specialist) -- dedicated science person; knows curriculum gaps
+1. **Shannon Chamberlain** (Science Content Specialist) -- dedicated science person; knows curriculum gaps
 2. **Vivian Carranco** (College & CTE Specialist) -- CTE pathway enhancement angle
 3. **Renee Farrell** (Math Content Specialist) -- computational thinking in math
 4. **Damon Blackman** (Dir. EdTech) -- tech platform approval

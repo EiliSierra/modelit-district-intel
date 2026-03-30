@@ -4,7 +4,7 @@
 **Total Contacts**: 29
 **Email Pattern**: `[finitial][lastname]@banning.k12.ca.us` (lowercase) — confirmed from verified samples
 **Verified Pattern Examples**: evalencia@, gbramasco@, nperez@, cnjuarez@ — all follow finitial+lastname
-**Hyphenated names**: likely tcausey-bush@ or tcausey@ — verify before sending
+**Hyphenated names**: district removes hyphens (e.g., tcauseybush@, not tcausey-bush@) — verified Mar 30 2026
 **District Phone**: (951) 922-0200
 **District Address**: 161 West Williams St., Banning, CA 92220
 **Website**: www.banning.k12.ca.us
@@ -23,7 +23,7 @@
 |-------|------|
 | Title | Assistant Superintendent, Educational Services |
 | Department | Educational Services |
-| Email | tcausey-bush@banning.k12.ca.us *(inferred — verify; may be tcausey@)* |
+| Email | tcauseybush@banning.k12.ca.us *(inferred — verify; may be tcausey@)* |
 | Phone | (951) 922-0200 |
 | Verification | Call district main and ask for Educational Services office |
 | Why Tier 1 | Owns all curriculum and instruction decisions for K-12 district. Primary approver for instructional tools and programs. Reports directly to Superintendent. |
@@ -360,7 +360,7 @@ Curriculum and technology gatekeepers first:
 3. **Anna Torres** (atorres@banning.k12.ca.us est.) — Data & Assessment Coordinator. Frame ModelIt's data output as CAASPP alignment evidence.
 
 ### Wave 2 — Executive Buy-In (Week 2, after Wave 1 response)
-4. **Dr. Tonia Causey-Bush** (tcausey-bush@banning.k12.ca.us est.) — Asst. Supt. Educational Services. Primary approver. CC on warm follow-up from Marcia Cole-Fijabi.
+4. **Dr. Tonia Causey-Bush** (tcauseybush@banning.k12.ca.us est.) — Asst. Supt. Educational Services. Primary approver. CC on warm follow-up from Marcia Cole-Fijabi.
 5. **Victor Herrera** (vherrera@banning.k12.ca.us est.) — Asst. Supt. Business Services. Budget pathway conversation: Title I + LCFF Supplemental for $15-25K pilot.
 
 ### Wave 3 — Pilot School Principals (after district staff engaged)
